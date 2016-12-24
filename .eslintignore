@@ -1,0 +1,5 @@
+coverage/*
+dist/bundle.js
+dist/index.ejs
+dist/tinymce/*
+dist/vendor.js
