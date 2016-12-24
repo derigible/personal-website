@@ -2,6 +2,7 @@ import React from 'react'
 import Router from 'middle-router'
 
 import Welcome from './pages/Welcome'
+import Member from './pages/Member'
 
 const app = 'family'
 const familyrouter = Router()
@@ -9,6 +10,12 @@ const familyrouter = Router()
     resolve({
       app,
       view: <Welcome />
+    })
+  })
+  .use('/:member', ({path, resolve, exiting, params, location}) => {
+    resolve({
+      app,
+      view: <Member familyMember={params.member} />
     })
   })
 

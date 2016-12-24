@@ -50,7 +50,7 @@ module.exports = {
       filename: 'index.html',
       inject: true,
       template: 'dist/index.ejs',
-      title: 'Instructure Quizzes'
+      title: 'Phillips Family'
     })
   ],
   postcss (webpack) {
