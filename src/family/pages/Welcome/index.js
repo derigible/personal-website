@@ -6,6 +6,8 @@ import Heading from 'instructure-ui/lib/components/Heading'
 import Link from 'instructure-ui/lib/components/Link'
 import Typography from 'instructure-ui/lib/components/Typography'
 
+import Bio from '../../components/Bio'
+
 import members from '../../data/members'
 import familyInfo from '../../data/familyInfo'
 
@@ -32,12 +34,6 @@ export default class Welcome extends Component {
     })
   }
 
-  renderBio () {
-    return familyInfo.map((section) => {
-      return <p>{section.data}</p>
-    })
-  }
-
   render () {
     return (
       <div className={styles.wrapper}>
@@ -45,11 +41,7 @@ export default class Welcome extends Component {
           <Heading>The Phillips Family</Heading>
         </div>
         {this.renderMembers()}
-        <div className={styles.bio}>
-          <Typography lineHeight="double">
-            {this.renderBio()}
-          </Typography>
-        </div>
+        <Bio bioInfo={familyInfo} />
       </div>
     )
   }

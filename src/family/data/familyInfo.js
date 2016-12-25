@@ -9,6 +9,10 @@ export default [
   },
   {
     type: 'text',
+    data: 'In February Marc was sent to Chicago for work and took along the whole family. For those who don\'t know, Chicago in winter can be extremely cold, and it was in this severe weather that Andrea and Whitley toured the city while Marc worked in a heated building. Of course Andrea suffered the cold so as to see the many wonderful things that Chicago had to offer. We then spent an extra week in Chicago visiting Marc\'s brother Paul and his wife Mandy and their family while they were still living there. We were impressed by Chicago, but decided that we probably never want to live in a big city for more than a year.'
+  },
+  {
+    type: 'text',
     data: 'Perhaps the biggest change for our family has been the purchase of a new home in Midvale, UT. With the arrival of Marley it became apparent pretty quickly that we would want to move into a bigger home. Around September we started getting serious about moving, and in October we decided upon a place about 5 to 10 minutes from Marc\'s office. We are very excited to be moving into this place, and the fact that it needs some work is actually exciting to Marc and Andrea (more so Marc than Andrea). Shows like "Fixer Upper" and "Property Brother\'s" have given Marc the renovation itch (and Andrea will do her best to keep him from going too crazy with it).'
   },
   {

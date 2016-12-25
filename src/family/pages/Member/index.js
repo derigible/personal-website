@@ -3,13 +3,16 @@ import styles from './styles.css'
 
 import Avatar from 'instructure-ui/lib/components/Avatar'
 import Heading from 'instructure-ui/lib/components/Heading'
-import Typography from 'instructure-ui/lib/components/Typography'
+
+// import ArrowLeft from 'instructure-icons/react/Line/IconArrowLeftLine'
+
+import Bio from '../../components/Bio'
 
 import members from '../../data/members'
 
 export default class Member extends Component {
   static propTypes = {
-    familyMember: PropTypes.string // TODO: this looks up info on the family member
+    familyMember: PropTypes.string
   }
 
   render () {
@@ -26,9 +29,7 @@ export default class Member extends Component {
             size="auto"
             userImgUrl={member.img} />
         </div>
-        <Typography>
-          {member.bio}
-        </Typography>
+        <Bio bioInfo={member.bio} />
       </div>
     )
   }
