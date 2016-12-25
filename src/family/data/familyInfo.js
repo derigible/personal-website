@@ -5,7 +5,7 @@ export default [
   },
   {
     type: 'text',
-    data: 'Several other events happened for our family during 2016, which includes Marc working a new career, Andrea transitioning from Part-time Nurse to full-time stay-at-home mom, and Whitley starting to speak. Marley of course learned to be alive, so that is pretty incredible for her. For more information on what each individual did, click on their picture above.'
+    data: 'Several other events happened for our family during 2016, which includes Marc working a new career, Andrea transitioning from Part-time Nurse to full-time stay-at-home mom, and Whitley starting to speak. Marley of course learned to be alive, so that is pretty incredible for her. For more information on what each individual did, click on their picture above. Once you have read their bio, click on their picture again to be brought back to this page.'
   },
   {
     type: 'text',

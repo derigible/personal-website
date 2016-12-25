@@ -3,12 +3,13 @@ import styles from './styles.css'
 
 import Avatar from 'instructure-ui/lib/components/Avatar'
 import Heading from 'instructure-ui/lib/components/Heading'
-
-// import ArrowLeft from 'instructure-icons/react/Line/IconArrowLeftLine'
+import Link from 'instructure-ui/lib/components/Link'
 
 import Bio from '../../components/Bio'
 
 import members from '../../data/members'
+
+import {router} from '../../../configureRouter'
 
 export default class Member extends Component {
   static propTypes = {
@@ -17,6 +18,7 @@ export default class Member extends Component {
 
   render () {
     const member = members.find((member) => member.id === this.props.familyMember)
+    const navigate = router.navigate.bind(router, '/family')
 
     return (
       <div className={styles.wrapper}>
@@ -24,10 +26,12 @@ export default class Member extends Component {
           <Heading>{member.name}</Heading>
         </div>
         <div className={styles.avatar}>
-          <Avatar
-            userName={member.name}
-            size="auto"
-            userImgUrl={member.img} />
+          <Link onClick={navigate}>
+            <Avatar
+              userName={member.name}
+              size="auto"
+              userImgUrl={member.img} />
+          </Link>
         </div>
         <Bio bioInfo={member.bio} />
       </div>
