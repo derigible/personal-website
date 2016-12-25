@@ -3,24 +3,32 @@ import styles from './styles.css'
 
 import Avatar from 'instructure-ui/lib/components/Avatar'
 import Heading from 'instructure-ui/lib/components/Heading'
+import Typography from 'instructure-ui/lib/components/Typography'
+
+import members from '../../data/members'
 
 export default class Member extends Component {
   static propTypes = {
     familyMember: PropTypes.string // TODO: this looks up info on the family member
   }
 
-  getMemberInfo()
-
   render () {
+    const member = members.find((member) => member.id === this.props.familyMember)
+
     return (
       <div className={styles.wrapper}>
-        <Heading color="brand">Whitley Marie</Heading>
-        <span className={styles.avatar}>
+        <div className={styles[`banner${member.id}`]}>
+          <Heading>{member.name}</Heading>
+        </div>
+        <div className={styles.avatar}>
           <Avatar
-            userName="Whitley Marie"
+            userName={member.name}
             size="auto"
-            userImgUrl={'http://d33tz7arw1d3eu.cloudfront.net/2815515/05e317c770335014f935a65db6e4fb7b-large.jpg'} />
-        </span>
+            userImgUrl={member.img} />
+        </div>
+        <Typography>
+          {member.bio}
+        </Typography>
       </div>
     )
   }

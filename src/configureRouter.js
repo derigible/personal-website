@@ -14,3 +14,5 @@ const configureRouter = () => {
 }
 
 export default configureRouter
+
+export const router = configureRouter()

@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom'
 
 import App from './shared/App'
 
-import configureRouter from './configureRouter'
-
-const router = configureRouter()
+import {router} from './configureRouter'
 
 router.on('route', async (args, routing) => { // eslint-disable-line arrow-parens
   try {
