@@ -9,6 +9,7 @@ const configureRouter = () => {
       [], (require) => resolve(require('./family/router').default), 'family'
     )))
     .use('/*', ({ path, resolve, exiting }) => {
+      console.log(path)
       resolve({view: <NotFound />, app: 'notFound'})
     })
 }

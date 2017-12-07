@@ -1,13 +1,7 @@
-const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
-    './src/main.js'
-  ],
   module: {
     loaders: [
       {
@@ -39,11 +33,6 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  devServer: {
-    contentBase: './dist',
-    hot: true,
-    historyApiFallback: true
-  },
   plugins: [
     new HtmlWebpackPlugin({
       chunksSortMode: 'dependency',
@@ -52,21 +41,5 @@ module.exports = {
       template: 'dist/index.ejs',
       title: 'Phillips Family'
     })
-  ],
-  postcss (webpack) {
-    const srcCss = require('./src/shared/styles/variables')
-    return [
-      require('postcss-import')({addDependencyTo: webpack}),
-      require('postcss-url')({url: 'inline'}),
-      require('postcss-cssnext')({
-        browsers: ['last 2 versions'],
-        features: {
-          customProperties: { variables: srcCss.variables },
-          customMedia: { extensions: srcCss.media }
-        }
-      }),
-      require('postcss-browser-reporter')(),
-      require('postcss-reporter')()
-    ]
-  }
+  ]
 }

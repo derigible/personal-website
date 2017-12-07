@@ -12,10 +12,16 @@ const familyrouter = Router()
       view: <Welcome />
     })
   })
-  .use('/:member', ({path, resolve, exiting, params, location}) => {
+  .use('/year/:year', ({path, resolve, exiting, params, location}) => {
     resolve({
       app,
-      view: <Member familyMember={params.member} />
+      view: <Welcome year={params.year} />
+    })
+  })
+  .use('/member/:member/year/:year', ({path, resolve, exiting, params, location}) => {
+    resolve({
+      app,
+      view: <Member familyMember={params.member} year={params.year} />
     })
   })
 

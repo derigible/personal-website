@@ -4,7 +4,8 @@
   "description": "Derigible Personal Website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
+    "build": "NODE_ENV=production webpack -p --config ./webpack.production.config.js",
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.development.config.js",
     "test": "NODE_ENV=test karma start --single-run",
     "test:watch": "NODE_ENV=test karma start --disable-coverage",
     "test:debug": "NODE_ENV=test karma start --single-run=false --debug"

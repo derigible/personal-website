@@ -4,8 +4,6 @@ const {
   variables, media: extensions
 } = require('./src/shared/styles/variables')
 
-console.log('here')
-
 module.exports = function postcss () {
   return {
     plugins: {

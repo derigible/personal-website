@@ -4,6 +4,7 @@ import styles from './styles.css'
 import Avatar from 'instructure-ui/lib/components/Avatar'
 import Heading from 'instructure-ui/lib/components/Heading'
 import Link from 'instructure-ui/lib/components/Link'
+import Select from 'instructure-ui/lib/components/Select'
 
 import Bio from '../../components/Bio'
 
@@ -13,12 +14,22 @@ import {router} from '../../../configureRouter'
 
 export default class Member extends Component {
   static propTypes = {
-    familyMember: PropTypes.string
+    familyMember: PropTypes.string.isRequired,
+    year: PropTypes.string.isRequired
+  }
+
+  handleYearChange (e) {
+    if (window.location.pathname.includes('year')) {
+      router.navigate(`${e.target.value}`)
+    } else {
+      router.navigate(`/family/member/${this.props.familyMember}/year/${e.target.value}`)
+    }
   }
 
   render () {
-    const member = members.find((member) => member.id === this.props.familyMember)
-    const navigate = router.navigate.bind(router, '/family')
+    const { year, familyMember } = this.props
+    const member = members[year].find((member) => member.id === familyMember)
+    const navigate = () => { router.navigate(`/family/year/${year}`) }
 
     return (
       <div className={styles.wrapper}>
@@ -33,6 +44,14 @@ export default class Member extends Component {
               userImgUrl={member.img} />
           </Link>
         </div>
+        <Select
+          label="Year"
+          value={this.props.year}
+          onChange={this.handleYearChange}
+        >
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+        </Select>
         <Bio bioInfo={member.bio} />
       </div>
     )

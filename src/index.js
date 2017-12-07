@@ -7,7 +7,6 @@ import {router} from './configureRouter'
 
 router.on('route', async (args, routing) => { // eslint-disable-line arrow-parens
   try {
-    // TODO: conditionalize the app loading based on user permissions
     const {view, app = 'family'} = await routing
 
     ReactDOM.render(
