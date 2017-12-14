@@ -12,6 +12,7 @@
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   margin-top: var(--extra-large-padding);
 }
@@ -19,4 +20,15 @@
 .nameplate {
   font-size: 1rem;
   text-align: center;
+}
+
+.yearSelect {
+  max-width: 15rem;
+  min-width: 10rem;
+  margin: auto;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
 }

@@ -58,16 +58,20 @@ export default class Welcome extends Component {
         <div className={styles.banner}>
           <Heading>The Phillips Family</Heading>
         </div>
-        {this.renderMembers()}
-        <Select
-          label="Year"
-          value={this.props.year}
-          onChange={this.handleYearChange}
-        >
-          <option value="2017">2017</option>
-          <option value="2016">2016</option>
-        </Select>
-        <Bio bioInfo={familyInfo} />
+        <div className={styles.members}>
+          {this.renderMembers()}
+        </div>
+        <div className={styles.yearSelect}>
+          <Select
+            label="Year"
+            value={this.props.year}
+            onChange={this.handleYearChange}
+          >
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+          </Select>
+        </div>
+        <Bio bioInfo={familyInfo[this.props.year]} />
       </div>
     )
   }
