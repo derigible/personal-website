@@ -50,7 +50,20 @@ export default {
         },
         {
           type: 'section',
-          data: `The highlight of Marc's year was `
+          data: `The highlight of Marc's year was probably traveling to Chicago for
+          work one last time. The big city is always exciting and the work is always
+          interesting when he goes. Though he has had fun with his several trips there,
+          he is glad to not have any more business trips for the forseeable future. He
+          always misses his girls and Andrea too much to really enjoy it.`
+        },
+        {
+          type: 'section',
+          data: `Marc is still very much in love with his little girls. He enjoys coming
+          home and dancing with them as Andrea takes a break from them. One of his favorite
+          hobbies is throwing the ball with them, or playing hide and go seek, or acting like
+          a doggy and chasing them across the house. Sometimes he loses his patience with
+          them and certainly has been humbled by the task of raising them, he still wouldn't
+          trade anything in the world for the time he has with his kids.`
         }
       ]
     },
@@ -59,7 +72,61 @@ export default {
       name: 'Andrea Carter',
       img: '/family/data/andreacloseup.jpg',
       bio: [
-
+        {
+          type: 'section',
+          data: `Moving to Midvale has presented a variety of opportunities as well as new
+          challenges for Andrea this past year, none more challenging than the increased
+          responsibilities of homecare that landed on her lap. Without much patience she
+          probably would have bolted for the hills in the early parts of the year.
+          Thankfully, through much perseverance, she has learned to handle the home and
+          has learned to flourish and make our house a home.`
+        },
+        {
+          type: 'section',
+          data: `It has been over a year now since Andrea left her job as a nurse to focus
+          on raising the children and so she has had to figure out new ways to flex her skills and
+          mind while learning to develop new abilities. She has become an excellent handy
+          woman, having put in most of our flooring by herself, and also prepping and painting
+          our living rooms and bathrooms mostly on her own. Despite the challenge of doing all
+          this while also watching the girls, she has done a fantastic job, almost single-handedly
+          transforming the neglected mess that was our home into a beautiful building worthy of
+          an HGTV special. Though she may deny it, we never would have gotten the house to where
+          it is today if not for her.`
+        },
+        {
+          type: 'section',
+          data: `In addition to learning construction skills, she has also picked up an interest in
+          financial education and understanding how money works. This is fitting for the daughter of
+          an accountant, and it was fun for the few months we spent learning all about investments and
+          how the industry works. One of her highlights this year was going to a seminar to learn more
+          about stocks and the stock market. Though the learning hasn't materialized into any
+          significant changes, it has brought us a sense of security knowing more about a rather
+          neglected aspect of our lives. She has taken a break for now, but in the future may pick up
+          another education project that will bless our lives (she has a tendency to get an interest in
+          a subject and learn all she can about it, which is great for Marc who is sporadic at best in his
+          education).`
+        },
+        {
+          type: 'section',
+          data: `But with all of the things she has learned, perhaps the most beneficial thing she has
+          had to accomplish is balancing the needs and desires of two exuberant and opinionated little
+          girls who simply cannot have enough mommy time. Often it seems that Andrea can barely get a moments
+          rest, and so the construction and learning has been a welcome break from the day in and day out
+          of motherhood she faces each day. To survive she has learned how to utilize the library and its
+          variety of kid-friendly activities. She also makes trips there for the fact that the girls will
+          play (mostly) quietly by themselves and gives Andrea a chance to peruse some books in peace. She
+          also has been working on establishing regular play dates and some time with her friends to help
+          alleviate the lack of adult interaction she gets each day.`
+        },
+        {
+          type: 'section',
+          data: `Andrea really has grown quite a bit this year in her power to bring order to our home and
+          lives. It is a constant struggle of course, but it is also a struggle worth having. Boredom is a killer
+          and so she does a great job at staving it off. With the coming of a new child it will be interesting
+          to see how she fairs this coming year. Certainly being pregnant with two little children in tow will
+          not be a cakewalk. Hopefully with the end of most major projects on our home she will be able to find
+          more time to do things that will be of interest to both her and the girls.`
+        }
       ]
     },
     {
@@ -67,7 +134,60 @@ export default {
       name: 'Whitley Marie',
       img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544703011/small/1512171028/enhance',
       bio: [
-
+        {
+          type: 'section',
+          data: `After two and half years, Whitley is starting to finally have hair long enough to put into
+          braids or pigtails (still working on the ponytail). And like her hair, Whitley is starting to really grow
+          into a magnificent little girl. Each month it seems she learns a new skill, from speaking in full
+          sentences, to being fully potty trained in less than a week, to discovering how to open the fridge
+          to get what she wants. And of course, after all she is able to do, it seems like she is still unwilling
+          to let go of being a baby. We think it is largely due to Marley still being a baby (and her closest friend)
+          that she still wants us to do simple things like get her dressed despite being capable of doing it for several
+          months now.`
+        },
+        {
+          type: 'section',
+          data: `But her desire for help is one of the more endearing things about our little Whitley. It is hard
+          to say no to her when she comes up to you and says "please? I your best friend." Of course, her best friend
+          really is Marley and the two are inseparable. Certainly there are fights and screams and not so good times,
+          but the fun far outweighs the bad between these two. Very often it will go quiet and that is when you know
+          that they two of them are either trying to watch a movie on the ipad behind the couch, or secretly destroying
+          something they know they shouldn't be in. They are partners in crime as well as competitors for attention.
+          Watching them fight over who will sit on Mommy's lap is always an enjoyable experience.`
+        },
+        {
+          type: 'section',
+          data: `Whitley has taken to dancing and singing on her own all the time (probably inspired by her favorite
+          genre of story - Disney princesses, both in movie and book form). If ever there was a model for the little
+          girly girl, Whitley would fit the bill. There has been more fights over what she wears than over all other
+          things combined, often resulting in her wearing the same dress for days until it is literally covered in dirt
+          and food (she must look like a princess and we only have a few dresses that fit the bill). She also loves to
+          stand on pedestals of any sort and sing songs, often involving doggies, rabbits, her cousins, and being a
+          princerina (a princess ballerina as far as we can tell). She also will sing some Disney songs like "Let it Go"
+          and "For the first time Ever" from Tangled. She loves Rapunzel and will wear a blanket on her head to simulate
+          the long hair. She is simply adorable to watch.`
+        },
+        {
+          type: 'section',
+          data: `When not acting like a princess or playing with Marley, Whitley enjoys watching Sophia the First, or reading
+          books by herself (preferrably Fancy Nancy or Barbie books), or going on walks or playing at the park. She has a
+          best friend next door who makes nursery a joy to attend. She often will walk home with her holding hands, and they
+          give each other big hugs when they are done. When her cousins come down she loves to play with them and always
+          gets very excited when she learns of their visiting. Grandma's house is also a favorite destination, where she loves
+          to play with the dolls there, help Grandma with her chores, and to help get eggs from the chickens. She also
+          loves making new friends wherever she goes (when she isn't being too shy of course). Old people still terrify her,
+          but she is quick to make friends with anyone 5 or younger.`
+        },
+        {
+          type: 'section',
+          data: `The best things about Whitley are really unquantifiable - she is just a joy to be around and she lightens
+          the mood with her cheerful, loving attitude. She is a fantastic, loving, and caring sister and will always make sure
+          Marley is cared for and is quick to share her treats with her when given. Often Whitley will break up her treats and
+          share with the entire family, and we don't even have to ask her to do it. Truly she is a charitable and loving little
+          human who we look forward very much to see her continue to blossom. This next year we hope to get her involved in
+          dance and to encourage her to continue to explore new and exciting things. She is such a boost of cheer in our
+          lives and we are extremely blessed to have her.`
+        }
       ]
     },
     {
@@ -75,7 +195,73 @@ export default {
       name: 'Marley Jean',
       img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544706468/small/1512171208/enhance',
       bio: [
-
+        {
+          type: 'section',
+          data: `For those who know Marley know that she is a very opinionated and energetic little girl. It is sometimes hard
+          to describe Marley without making her sound like she isn't an absolute joy to have around. Truly Marley has brought
+          a dynamic to our family that has been both challenging and enjoyable. Certainly no one thought that one in such a little
+          form would be able to control so much personality, but she proved us wrong from the very first months of her life. With
+          that personality has come a whole lot of fun and great experiences, but of course it also has brought lots of frustration,
+          anger, tears, and growth opportunities. It is remarkable just how strong-willed she can be, yet still take so much
+          (well-meaning) abuse from her sister (Whitley sometimes is too exuberant in showing her love for Marley). But Marley will
+          rarely cry or scream during these times, and often will instead laugh. She will scream, however, when a toy is taken
+          away, or when Whitley is given something she wants, or when she is not sitting on Mommy's lap and Whitley is. It really
+          can be a mystery what sets her off, but tackles, closelines, and head butts from Whitley doesn't seem to do it.`
+        },
+        {
+          type: 'section',
+          data: `Because Marley is such a strong-willed and often independent little girl, it can be surprising when she decides to be
+          tender and cuddly. She very much loves to be cuddled with when tired, and when music is playing she loves to be picked up
+          and danced with like a ballroom dancer. She also loves to cuddle her baby and can be very gentle with other younger babies.
+          Her baby cousin Benjamin often is a source of her affection, and she does a remarkable job at being gentle with him. She also
+          surprises us by consistently being the most reverent during prayers, the deepest sleeper at night, and wanting to clean
+          up her own messes. Anyone who only cursorily meets Marley probably wouldn't even know about her super sweet and tender side,
+          but it can rival Whitley's when she wants it to.`
+        },
+        {
+          type: 'section',
+          data: `And perhaps that is the most defining characteristic of our dear little girl - she does what she wants to do. Since
+          her father is also a stubborn human being, it can be a fight whenever their two opinions do not align (usually when it comes
+          to sleep, but it has happened at other occasions). Marley is not one to do something that she really doesn't want to do,
+          and so it can be a challenge to account for mood in a given situation. Driving to Washington and back in August was more or
+          less successful because we were able to get her to sleep for the majority of the trip. When she woke up and decided she was
+          hungry, she let us know loudly, and so she dictated the majority of the stops for us. When we decide to go visit someone
+          or go to dinner, we have consider how rested she is so we can ensure that she won't have a major episode in public. But
+          because Marley is also shy of strangers and fascinated by people (her and Whitley are amazing people watchers) she usually
+          does really good around strangers.`
+        },
+        {
+          type: 'section',
+          data: `Marley loves life and playing, and sometimes it is hard for her because she is so small for her age to be able to play
+          with her sister and friends when they go to the big kids park. Often she is just left behind as they run around and her little
+          legs aren't quick enough to keep pace. This has led Marley learning to run before she could stably walk, and in turn has led her
+          to be fearless in almost all things. She often will try to walk off the changing table to get down to play, even though she
+          knows the fall will hurt. She runs down the hallway knowing that she is likely to fall at least once and hit her head. But in all
+          those times she takes her lumps, cries a second, and then gets on with whatever thing she is determined to accomplish. It is this
+          tenacity and joviality that allows her to chase after her sister and her friends and just enjoy the chase. Life is a big game to
+          her, and so the bumps and bruises are just part of the fun it seems. Sometimes we wonder if maybe she just has an inner-ear
+          problem because she seems to fall an extraordinary amount, but we are pretty sure she just isn't patient enough to handle life
+          for one her age and size.`
+        },
+       {
+          type: 'section',
+          data: `Her size is also definitely something that sets her apart. Since she has been walking it has looked like she is a
+          walking infant. Her checkups have placed her off the growth chart for her age for several months of her life (as in she
+          is simply too small to make the chart). Yet her size hasn't slowed her down at all and she appears to be perfectly
+          healthy. She has developed at a normal pace and hasn't really seemed like the size has been an issue (except when playing
+          with her sister of course) because she makes up for it with her intensity and courage.`
+        },
+        {
+          type: 'section',
+          data: `Major milestons for Marley have been learning to use words, eating by herself, and sleeping through the night. The more
+          she can communicate the less angry she gets, which makes life a lot more fun for everyone. Though Marley can be
+          a real struggle at times, she is a pleasure to be around. She seems to be quite intelligent, often figuring things
+          out on her own that surprises us. It will be a lot of fun to see how she continues to grow this next year, and even
+          more so when a new challenger for Mommy's lap appears. We aren't quite sure how she will handle a younger sibling,
+          and it is even more unclear how she will handle being ignored. But we are sure that she will figure it out,
+          and we are confident that her sweet personality will shine through and not the sometimes scary mad one hidden
+          inside.`
+        }
       ]
     }
   ],
