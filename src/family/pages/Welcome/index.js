@@ -1,11 +1,12 @@
-import React, {Component, PropTypes} from 'react'
-import styles from './styles.css'
+import PropTypes from 'prop-types'
+import React, {Component} from 'react'
 
-import Avatar from 'instructure-ui/lib/components/Avatar'
-import Heading from 'instructure-ui/lib/components/Heading'
-import Link from 'instructure-ui/lib/components/Link'
-import Select from 'instructure-ui/lib/components/Select'
-import Typography from 'instructure-ui/lib/components/Typography'
+import Avatar from '@instructure/ui-elements/lib/components/Avatar'
+import Heading from '@instructure/ui-elements/lib/components/Heading'
+import Link from '@instructure/ui-elements/lib/components/Link'
+import Select from '@instructure/ui-forms/lib/components/Select'
+import Text from '@instructure/ui-elements/lib/components/Text'
+import Flex, {FlexItem} from '@instructure/ui-layout/lib/components/Flex'
 
 import Bio from '../../components/Bio'
 
@@ -23,11 +24,11 @@ export default class Welcome extends Component {
     year: '2017'
   }
 
-  handleYearChange (e) {
+  handleYearChange (_, value) {
     if (window.location.pathname.includes('year')) {
-      router.navigate(`${e.target.value}`)
+      router.navigate(`${value.value}`)
     } else {
-      router.navigate(`/family/year/${e.target.value}`)
+      router.navigate(`/family/year/${value.value}`)
     }
   }
 
@@ -36,32 +37,33 @@ export default class Welcome extends Component {
     return members[year].map((member) => {
       const navigate = () => { router.navigate(`/family/member/${member.id}/year/${year}`) }
       return (
-        <div key={`${member.id}_avatar`} className={styles.avatar}>
+        <FlexItem key={`${member.id}_avatar`}>
           <Link onClick={navigate}>
             <Avatar
-              userName={member.name}
-              size="auto"
-              userImgUrl={member.img}
+              as="div"
+              name={member.name}
+              size="x-large"
+              src={member.img}
             />
           </Link>
-          <div className={styles.nameplate}>
-            <Typography size="x-small">{member.name}</Typography>
+          <div>
+            <Text>{member.name}</Text>
           </div>
-        </div>
+        </FlexItem>
       )
     })
   }
 
   render () {
     return (
-      <div className={styles.wrapper}>
-        <div className={styles.banner}>
+      <div>
+        <div style={{margin: 'auto', textAlign: 'center'}}>
           <Heading>The Phillips Family</Heading>
         </div>
-        <div className={styles.members}>
+        <Flex justifyItems="space-between" margin="large xx-large">
           {this.renderMembers()}
-        </div>
-        <div className={styles.yearSelect}>
+        </Flex>
+        <div>
           <Select
             label="Year"
             value={this.props.year}

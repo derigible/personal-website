@@ -1,7 +1,7 @@
-import React, {Component, PropTypes} from 'react'
-import styles from './styles.css'
+import PropTypes from 'prop-types'
+import React, {Component} from 'react'
 
-import Typography from 'instructure-ui/lib/components/Typography'
+import Text from '@instructure/ui-elements/lib/components/Text'
 
 export default class Bio extends Component {
   static propTypes = {
@@ -17,10 +17,10 @@ export default class Bio extends Component {
 
   render () {
     return (
-      <div className={styles.bio}>
-        <Typography lineHeight="double">
+      <div>
+        <Text lineHeight="double">
           {this.renderBio()}
-        </Typography>
+        </Text>
       </div>
     )
   }

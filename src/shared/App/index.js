@@ -1,7 +1,8 @@
-import React, {PropTypes, Component} from 'react'
+import PropTypes from 'prop-types'
+import React, {Component} from 'react'
 import classNames from 'classnames'
 
-import styles from './styles.css'
+import View from '@instructure/ui-layout/lib/components/View'
 
 export default class App extends Component {
   static propTypes = {
@@ -10,15 +11,11 @@ export default class App extends Component {
   }
 
   render () {
-    const contentClassList = classNames({
-      [styles.content]: true
-    })
-
     return (
-      <div className={contentClassList}>
-        <div id="content" role="main" className={styles.main}>
+      <div id="content" role="main">
+        <View as="div" margin="small">
           {this.props.children}
-        </div>
+        </View>
       </div>
     )
   }

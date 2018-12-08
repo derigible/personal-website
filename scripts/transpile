@@ -1,8 +1,0 @@
-#!/bin/bash -e
-
-babel=./node_modules/.bin/babel
-
-# Transpile JS and CSS to lib dir
-NODE_ENV=build BABEL_DISABLE_CACHE=1 $babel src \
-  --out-dir __build__/src \
-  --ignore **/__tests__/**,**/__spec__/**,*.test.js,*-test.js,*.spec.js,*-spec.js

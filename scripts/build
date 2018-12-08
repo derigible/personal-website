@@ -1,5 +1,0 @@
-#!/bin/bash -e
-
-rm -rf __build__
-
-./scripts/transpile

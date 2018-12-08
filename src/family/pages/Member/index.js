@@ -1,10 +1,10 @@
-import React, {Component, PropTypes} from 'react'
-import styles from './styles.css'
+import PropTypes from 'prop-types'
+import React, {Component} from 'react'
 
-import Avatar from 'instructure-ui/lib/components/Avatar'
-import Heading from 'instructure-ui/lib/components/Heading'
-import Link from 'instructure-ui/lib/components/Link'
-import Select from 'instructure-ui/lib/components/Select'
+import Avatar from '@instructure/ui-elements/lib/components/Avatar'
+import Heading from '@instructure/ui-elements/lib/components/Heading'
+import Link from '@instructure/ui-elements/lib/components/Link'
+import Select from '@instructure/ui-forms/lib/components/Select'
 
 import Bio from '../../components/Bio'
 
@@ -32,16 +32,16 @@ export default class Member extends Component {
     const navigate = () => { router.navigate(`/family/year/${year}`) }
 
     return (
-      <div className={styles.wrapper}>
-        <div className={styles[`banner${member.id}`]}>
+      <div>
+        <div>
           <Heading>{member.name}</Heading>
         </div>
-        <div className={styles.avatar}>
+        <div>
           <Link onClick={navigate}>
             <Avatar
-              userName={member.name}
+              name={member.name}
               size="auto"
-              userImgUrl={member.img} />
+              src={member.img} />
           </Link>
         </div>
         <Select
