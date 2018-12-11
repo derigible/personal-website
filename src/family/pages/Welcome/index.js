@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import Avatar from '@instructure/ui-elements/lib/components/Avatar'
 import Heading from '@instructure/ui-elements/lib/components/Heading'
 import Link from '@instructure/ui-elements/lib/components/Link'
 import Select from '@instructure/ui-forms/lib/components/Select'
 import Text from '@instructure/ui-elements/lib/components/Text'
 import Flex, {FlexItem} from '@instructure/ui-layout/lib/components/Flex'
 
+import Avatar from '../../components/Avatar'
 import Bio from '../../components/Bio'
 
 import members from '../../data/members'
@@ -37,17 +37,15 @@ export default class Welcome extends Component {
     return members[year].map((member) => {
       const navigate = () => { router.navigate(`/family/member/${member.id}/year/${year}`) }
       return (
-        <FlexItem key={`${member.id}_avatar`}>
+        <FlexItem key={`${member.id}_avatar`} margin="medium large">
           <Link onClick={navigate}>
             <Avatar
-              as="div"
               name={member.name}
-              size="x-large"
               src={member.img}
             />
           </Link>
-          <div>
-            <Text>{member.name}</Text>
+          <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
+            <Text size="large">{member.name}</Text>
           </div>
         </FlexItem>
       )
@@ -57,13 +55,13 @@ export default class Welcome extends Component {
   render () {
     return (
       <div>
-        <div style={{margin: 'auto', textAlign: 'center'}}>
-          <Heading>The Phillips Family</Heading>
+        <div style={{margin: 'auto', textAlign: 'center', color: '#8e8ef7'}}>
+          <Heading margin="medium none">The Phillips Family</Heading>
         </div>
-        <Flex justifyItems="space-between" margin="large xx-large">
+        <Flex justifyItems="center" margin="small xx-large" wrapItems>
           {this.renderMembers()}
         </Flex>
-        <div>
+        <div style={{maxWidth: '15rem', margin: 'auto'}}>
           <Select
             label="Year"
             value={this.props.year}

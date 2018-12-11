@@ -5,6 +5,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marccloseup.jpg',
+      color: '#5fabff',
       bio: [
         {
           type: 'section',
@@ -71,6 +72,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andreacloseup.jpg',
+      color: '#5fffc6',
       bio: [
         {
           type: 'section',
@@ -133,6 +135,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544703011/small/1512171028/enhance',
+      color: '#b0ff5f',
       bio: [
         {
           type: 'section',
@@ -194,6 +197,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544706468/small/1512171208/enhance',
+      color: '#bf8dea',
       bio: [
         {
           type: 'section',
@@ -270,6 +274,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/9c1364bc1529b364a3c4973e75632ff7-large.jpg',
+      color: '#5fabff',
       bio: [
         {
           type: 'section',
@@ -293,6 +298,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/f15150c182c7964863a477fa74ae7b2d-large.jpg',
+      color: '#5fffc6',
       bio: [
         {
           type: 'section',
@@ -316,6 +322,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/05e317c770335014f935a65db6e4fb7b-large.jpg',
+      color: '#b0ff5f',
       bio: [
         {
           type: 'section',
@@ -344,6 +351,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/3996d6d4f45c770938f3dacb15336193-large.jpg',
+      color: '#bf8dea',
       bio: [
         {
           type: 'section',

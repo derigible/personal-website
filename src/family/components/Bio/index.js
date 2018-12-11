@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
 import Text from '@instructure/ui-elements/lib/components/Text'
+import Responsive from '@instructure/ui-layout/lib/components/Responsive'
+import View from '@instructure/ui-layout/lib/components/View'
 
 export default class Bio extends Component {
   static propTypes = {
@@ -17,11 +19,40 @@ export default class Bio extends Component {
 
   render () {
     return (
-      <div>
-        <Text lineHeight="double">
-          {this.renderBio()}
-        </Text>
-      </div>
+      <Responsive
+        match="media"
+        query={{
+          small: { maxWidth: 600 },
+          medium: { minWidth: 600 },
+          large: { minWidth: 800}
+        }}
+      >
+      {(_, matches) => {
+        if (matches.includes('large')) {
+          return (
+            <View
+              as="div"
+              maxWidth="80rem"
+              shadow="topmost"
+              margin="small auto"
+              padding="xx-small medium small medium"
+            >
+              <Text lineHeight="double">
+                {this.renderBio()}
+              </Text>
+            </View>
+          )
+        } else {
+          return (
+            <div>
+              <Text lineHeight="double">
+                {this.renderBio()}
+              </Text>
+            </div>
+          )
+        }
+      }}
+    </Responsive>
     )
   }
 }

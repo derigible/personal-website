@@ -45,3 +45,4 @@ dist/*.js.map
 lib
 __build__
 .slacker
+.babel-cache
