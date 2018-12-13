@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
-import classNames from 'classnames'
 
 import View from '@instructure/ui-layout/lib/components/View'
 

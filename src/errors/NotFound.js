@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react'
+import React, {Component} from 'react'
 import styles from './NotFound.css'
 
 export default class NotFound extends Component {

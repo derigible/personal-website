@@ -1,10 +1,185 @@
 /* eslint-disable */
 export default {
+  '2018': [
+    {
+      id: 'Marc',
+      name: 'Marc Alan',
+      img: '/family/data/marc2018.jpg',
+      color: '#5fabff',
+      bio: [
+        {
+          type: 'section',
+          data: `Highlights of Marc's year include being called into the ward Bishopric as second counselor
+          and then later called to be the first counselor (a calling he has enjoyed immensely). He has also
+          spent a good deal of time learning how to enjoy working at a job for more than two years (the longest
+          time he has ever had a job was a year and a half!) and can happily say that he is content with his
+          state in life and isn't seeking to change companies. He also took on a role of being part of an
+          international standards body in education technology that has been an enriching experience for him.
+          `
+        },
+        {
+          type: 'section',
+          data: `Outside of work Marc has been busy cleaning up his yard, taking care of his girls, maintaining
+          the beard he has decided to keep around for awhile, and playing
+          as much Magic: The Gathering as he can afford. He still very much loves a good Netflix binge, so that
+          will often take away his time from Magic when he does get time to slack off. But, for the most part,
+          he has enjoyed participating in many of the family trips and adventures that the family has done.`
+        }
+      ]
+    },
+    {
+      id: 'Andrea',
+      name: 'Andrea Carter',
+      img: '/family/data/andrea2018.jpg',
+      color: '#5fffc6',
+      bio: [
+        {
+          type: 'section',
+          data: `Defining moments of Andrea's year include her pregnancy that ended in July, frequent library
+          trips with the girls, aquarium trips with the girls, shopping with the girls, and trying to get the
+          girls to nap. Essentially, 2018 was the year of child rearing and bearing for Andrea. That isn't to
+          say that she hasn't done other things of note, but certainly those other things pail in comparison to
+          the monumental feat of raising two hyper little girls while being pregnant with a third. Thankfully
+          she is a big fan of books and aquariums, because shopping has near driven her mad.`
+        },
+        {
+          type: 'section',
+          data: `Other notable parts to Andrea's year have been her conquering the meal planning devil that has
+          plagued her for years (and it has been a tasty development indeed), becoming a life development planner for her
+          beautiful daughters, and filling the role organization specialist in her engergetic household. She often times will
+          be more than willing to end the day watching Netflix before bed as it helps unwind from the whirlwind of the day.
+          She does love what she does, but often she is left reminding herself that, in a few years, the little kid stage will
+          end and she will be left trying to fill her time where once only chaos reigned.`
+        }
+      ]
+    },
+    {
+      id: 'Whitley',
+      name: 'Whitley Marie',
+      img: '/family/data/whitley2018.jpg',
+      color: '#b0ff5f',
+      bio: [
+        {
+          type: 'section',
+          data: `Whitley's growth has been fun and wonderful to behold. From shy little two year old who struggled to move
+          out of Nursery into sunbeams, to the radiant, loving, and (mostly) brave girl she is today, Whitley has had a
+          truly transformative year. Not only did she learn to conquer the nervousness of performing in front of people
+          at the Festival of Trees with her dance class, she also delivered a very good talk in front of the ward during
+          her primary program without any help or goading. Nerves and a little bit of shyness still creep in occasionally,
+          but she rarely struggles anymore with being around strangers or doing things in front of people.`
+        },
+        {
+          type: 'section',
+          data: `As was mentioned, Whitley has started her first official "school" (as she likes to call it). Inspired by
+          movies like "Leap" she was excited to go to ballerina school. Her reception of the dance classes has been mixed,
+          but overall she enjoys them (we think), or at least she says she wants to keep doing them. We aren't really sure
+          what she thinks, but we are pretty sure she wants to continue learning to dance. Watching her trying to do the
+          dances just right is always a treat and we hope she continues to try new things along with dancing.`
+        },
+        {
+          type: 'section',
+          data: `Whitley has started to learn how to count and recognize letters and words. She
+          has always loved books, and this year she officially completed the 1000 books before kindergarten challenge the
+          Salt Lake County Library system does for kids. This means she has read far more than a 1000 books in her life already
+          because we didn't count the books we read in American Fork, and we didn't count the books we own on our shelves at home.
+          This was all done within the last couple of years, showing just how much she loves to read.`
+        },
+        {
+          type: 'section',
+          data: `Much of the things she did last year are still the same (such as playing with Marley and watching Sophia), but she
+          also has continued to develop in so many astonishing and wonderful ways. Tantrums and unreasonable fits aside (how many times
+          can a girl be upset that her shirt's neckline is a little too high before she gets a different shirt?), she is still a
+          sweet little angel who seeks to help and be loving and loved by others. We are excited to see how she will continue
+          to change in the coming year as we prepare to put her into more education classes (possibly preschool, but maybe just other
+          things that will teach her new things.) She likes to learn, so we are excited to help her do so.`
+        }
+      ]
+    },
+    {
+      id: 'Marley',
+      name: 'Marley Jean',
+      img: '/family/data/marley2018.jpg',
+      color: '#bf8dea',
+      bio: [
+        {
+          type: 'section',
+          data: `As I sit down to write this, I find it difficult to write a synopsis of Marley's year without going off about
+          just how much she is different than Whitley. I know that one should not compare children, but it is hard not to when
+          Marley is, in so many ways, the opposite of Whitley. Yet, she still has several of the same endearing and wonderful
+          traits of her sister, which, combined with several other traits unique to her, has made watching her grow throughout
+          the year wonderful, frightening, pride-inducing, angering, and a myriad other emotions all at once. One cannot think
+          of Marley and not think of her as being a fire-cracker of a person.`
+        },
+        {
+          type: 'section',
+          data: `Marley has been able to speak for pretty much the entirety of this year (perhaps minus a couple of months),
+          which has been both a blessing and a curse. A blessing because it has made things like getting what she wants easier since
+          she can just tell us in words; a curse because it is easy to forget that she is only 1 or 2 and not the same age as Whitley.
+          Coupled with a strong personality and a fierce determination to not be pushed down, Marley has often been found telling kids
+          twice her size what to do at the playground. Often these kids are 4 or 5 year olds, so the sight of little Marley (who is already
+          quite small for her age) telling these kids what to do can be hilarious and scary.`
+        },
+        {
+          type: 'section',
+          data: `Her skills in other areas besides speech have also increased. She is learning how to count, recognize letters, and sing
+          songs (her favorite being "I Belong to the Church of Jesus Christ"). Because Whitley is her closest and best friend, she wants to
+          do just about everything Whitley is doing, including learning how to dance and likes to watch what Whitley is learning from the
+          sidelines. Perhaps she will want to pick up dance like her sister in the future. She definitely has a flair for emotion, passion,
+          and energy, which all serve well for the arts. She loves to color and draw and can often be found scribbling on things (like the wall).`
+        },
+        {
+          type: 'section',
+          data: `Marley's temperament has also changed this year. She is still quite a handful, but she can also be found reading a book by herself,
+          or playing quietly with her kitchen playset without anyone else around. She enjoys having alone time, but she also
+          loves to help with whatever you are doing at the moment. But, she also is quick to scream and let her feelings be known. Like her
+          father, she can be incredibly stubborn, which has led to some learning moments and lots of time-out time. But the good always outweigh
+          the bad with her, so don't think she is a pain to have around - quite the opposite. Marley brings a spunk and dynamic to all things
+          she does.`
+        },
+       {
+          type: 'section',
+          data: `As for other developments in her life, she has enjoyed being in nursery, becoming an older sister, learning that she can sing
+          and singing all the time, loving to be read to, and, above all else, loves to attack "the monster" (aka, daddy). She has a very vivid and
+          active imagination and loves to play all sorts of games. It will be a joy to see the various aspects of her life continue to form and develop
+          over the next year.`
+        }
+      ]
+    },
+    {
+      id: 'Brinley',
+      name: 'Brinley Ann',
+      img: '/family/data/brinley2018.jpg',
+      color: '#bf8dea',
+      bio: [
+        {
+          type: 'section',
+          data: `So much of who Brinley is can be summed up into one word: smiles. She is the smiliest baby we have had and her gummy little grin
+          brightens our day each time she flashes it at us. From the begining it was clear that Brinley was different from either of her sisters
+          because she was slightly shorter when she was born (Whitley and Marley were both the exact same weight and height). Obviously all children
+          are different, but Brinley has been unique in that she is actually on the growth charts! It can be difficult carrying her around all day
+          because she weighs the same as an average baby. We finally see why people complain about hauling babies around everywhere!`
+        },
+        {
+          type: 'section',
+          data: `She has changed a lot since she has come to us, and we are grateful to have her here. She loves her sisters, mom, dad, and just
+          about anyone else who holds her. But she is quick to anger and doesn't really give much warning before belting out a scream. She is quite
+          tolerant though, so it is not always a problem that she screams so loudly when upset. She doesn't even mind when her sisters lay on her,
+          in fact she seems to almost enjoy abuse because it means she is given attention (which she doesn't lack, just about everyone loves her).`
+        },
+        {
+          type: 'section',
+          data: `Brinley was born in June, and shortly after coming out, was able to see all sorts of sights - from Yellowstone to Crystal Hot Springs.
+          That is quite a bit for her short time here, but it is hard to imagine how life would be without her, she is such a part of our family already.
+          We love waking up to her smiles and will continue to drink them in as long as she gives them.`
+        }
+      ]
+    }
+  ],
   '2017': [
     {
       id: 'Marc',
       name: 'Marc Alan',
-      img: '/family/data/marccloseup.jpg',
+      img: '/family/data/marc2017.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -71,7 +246,7 @@ export default {
     {
       id: 'Andrea',
       name: 'Andrea Carter',
-      img: '/family/data/andreacloseup.jpg',
+      img: '/family/data/andrea2017.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -134,7 +309,7 @@ export default {
     {
       id: 'Whitley',
       name: 'Whitley Marie',
-      img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544703011/small/1512171028/enhance',
+      img: '/family/data/whitley2017.jpg',
       color: '#b0ff5f',
       bio: [
         {
@@ -196,7 +371,7 @@ export default {
     {
       id: 'Marley',
       name: 'Marley Jean',
-      img: 'https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/003083637295/media/83544706468/small/1512171208/enhance',
+      img: '/family/data/marley2017.jpg',
       color: '#bf8dea',
       bio: [
         {
@@ -273,7 +448,7 @@ export default {
     {
       id: 'Marc',
       name: 'Marc Alan',
-      img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/9c1364bc1529b364a3c4973e75632ff7-large.jpg',
+      img: '/family/data/marc2016.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -297,7 +472,7 @@ export default {
     {
       id: 'Andrea',
       name: 'Andrea Carter',
-      img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/f15150c182c7964863a477fa74ae7b2d-large.jpg',
+      img: '/family/data/andrea2016.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -321,7 +496,7 @@ export default {
     {
       id: 'Whitley',
       name: 'Whitley Marie',
-      img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/05e317c770335014f935a65db6e4fb7b-large.jpg',
+      img: '/family/data/whitley2016.jpg',
       color: '#b0ff5f',
       bio: [
         {
@@ -350,7 +525,7 @@ export default {
     {
       id: 'Marley',
       name: 'Marley Jean',
-      img: 'https://d33tz7arw1d3eu.cloudfront.net/2815515/3996d6d4f45c770938f3dacb15336193-large.jpg',
+      img: '/family/data/marley2016.jpg',
       color: '#bf8dea',
       bio: [
         {

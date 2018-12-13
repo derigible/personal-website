@@ -21,7 +21,7 @@ export default class Welcome extends Component {
   }
 
   static defaultProps = {
-    year: '2017'
+    year: '2018'
   }
 
   handleYearChange (_, value) {
@@ -42,6 +42,7 @@ export default class Welcome extends Component {
             <Avatar
               name={member.name}
               src={member.img}
+              size={members[year].length < 5 ? "large" : "small"}
             />
           </Link>
           <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
@@ -67,6 +68,7 @@ export default class Welcome extends Component {
             value={this.props.year}
             onChange={this.handleYearChange}
           >
+            <option value="2018">2018</option>
             <option value="2017">2017</option>
             <option value="2016">2016</option>
           </Select>

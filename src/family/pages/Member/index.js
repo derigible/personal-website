@@ -22,11 +22,11 @@ export default class Member extends Component {
     color: '#8e8ef7'
   }
 
-  handleYearChange (e) {
+  handleYearChange (_, value) {
     if (window.location.pathname.includes('year')) {
-      router.navigate(`${e.target.value}`)
+      router.navigate(value.value)
     } else {
-      router.navigate(`/family/member/${this.props.familyMember}/year/${e.target.value}`)
+      router.navigate(`/family/member/${this.props.familyMember}/year/${value.value}`)
     }
   }
 
@@ -55,6 +55,7 @@ export default class Member extends Component {
             value={this.props.year}
             onChange={this.handleYearChange}
           >
+            <option value="2018">2018</option>
             <option value="2017">2017</option>
             <option value="2016">2016</option>
           </Select>
