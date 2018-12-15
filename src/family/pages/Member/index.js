@@ -30,6 +30,20 @@ export default class Member extends Component {
     }
   }
 
+  renderYearOptions () {
+    const { familyMember } = this.props
+    const years = Object.keys(members).reduce(
+      (memo, year) => {
+        if (members[year].find((member) => member.id === familyMember)) {
+          return memo.concat([year])
+        }
+        return memo
+      },
+      []
+    )
+    return years.map(year => <option value={year} key={year}>{year}</option>)
+  }
+
   render () {
     const { year, familyMember } = this.props
     const member = members[year].find((member) => member.id === familyMember)
@@ -55,9 +69,7 @@ export default class Member extends Component {
             value={this.props.year}
             onChange={this.handleYearChange}
           >
-            <option value="2018">2018</option>
-            <option value="2017">2017</option>
-            <option value="2016">2016</option>
+            {this.renderYearOptions()}
           </Select>
         </div>
         <Bio bioInfo={member.bio} />

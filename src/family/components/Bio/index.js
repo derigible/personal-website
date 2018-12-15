@@ -12,8 +12,8 @@ export default class Bio extends Component {
 
   renderBio () {
     // TODO: this should have logic to render different section types
-    return this.props.bioInfo.map((section) => {
-      return <p key={section.data.substring(1, 6)}>{section.data}</p>
+    return this.props.bioInfo.map((section, i) => {
+      return <p key={`${section.data.substring(1, 6)}${i}`}>{section.data}</p>
     })
   }
 
@@ -23,7 +23,6 @@ export default class Bio extends Component {
         match="media"
         query={{
           small: { maxWidth: 600 },
-          medium: { minWidth: 600 },
           large: { minWidth: 800}
         }}
       >

@@ -149,7 +149,7 @@ export default {
       id: 'Brinley',
       name: 'Brinley Ann',
       img: '/family/data/brinley2018.jpg',
-      color: '#bf8dea',
+      color: 'rgb(253, 117, 178)',
       bio: [
         {
           type: 'section',

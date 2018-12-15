@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
+import Alert from '@instructure/ui-alerts/lib/components/Alert'
 import Heading from '@instructure/ui-elements/lib/components/Heading'
 import Link from '@instructure/ui-elements/lib/components/Link'
 import Select from '@instructure/ui-forms/lib/components/Select'
@@ -32,6 +33,10 @@ export default class Welcome extends Component {
     }
   }
 
+  takeQuiz () {
+    router.navigate('/family/quiz')
+  }
+
   renderMembers () {
     const { year } = this.props
     return members[year].map((member) => {
@@ -42,7 +47,7 @@ export default class Welcome extends Component {
             <Avatar
               name={member.name}
               src={member.img}
-              size={members[year].length < 5 ? "large" : "small"}
+              size={(members[year].length < 5 || window.matchMedia("(max-width: 600px)").matches) ? "large" : "small"}
             />
           </Link>
           <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
@@ -56,8 +61,15 @@ export default class Welcome extends Component {
   render () {
     return (
       <div>
-        <div style={{margin: 'auto', textAlign: 'center', color: '#8e8ef7'}}>
+        <div style={{margin: 'auto', textAlign: 'center', color: '#8e8ef7', maxWidth: '25rem'}}>
           <Heading margin="medium none">The Phillips Family</Heading>
+          <Alert
+            variant="info"
+          >
+            <Link onClick={this.takeQuiz}>
+              Play the baby guessing game!
+            </Link>
+          </Alert>
         </div>
         <Flex justifyItems="center" margin="small xx-large" wrapItems>
           {this.renderMembers()}

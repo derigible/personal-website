@@ -109,6 +109,7 @@ if (isProduction) {
     entry: Object.assign(exports.entry, {
       vendor: 'babel-polyfill middle-router react'.split(' ')
     }),
+    output: Object.assign(exports.output, {publicPath: '/'}),
     plugins: [
       ...exports.plugins,
       doMinify && new webpack.optimize.UglifyJsPlugin({
