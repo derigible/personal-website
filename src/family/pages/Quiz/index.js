@@ -4,11 +4,14 @@ import React, {Component} from 'react'
 import Alert from '@instructure/ui-alerts/lib/components/Alert'
 import Button from '@instructure/ui-buttons/lib/components/Button'
 import Heading from '@instructure/ui-elements/lib/components/Heading'
+import Link from '@instructure/ui-elements/lib/components/Link'
 import RadioInput from '@instructure/ui-forms/lib/components/RadioInput'
 import RadioInputGroup from '@instructure/ui-forms/lib/components/RadioInputGroup'
 import Text from '@instructure/ui-elements/lib/components/Text'
+import capitalize from '@instructure/ui-utils/lib/capitalizeFirstLetter'
 
 import Avatar from '../../components/Avatar'
+import {router} from '../../../configureRouter'
 
 import data from './data'
 
@@ -47,6 +50,14 @@ export default class Quiz extends Component {
     this.setState({tempAnswer: value})
   }
 
+  backToWelcome () {
+    router.navigate('/family')
+  }
+
+  goToBio (person) {
+    return () => router.navigate(`/family/member/${capitalize(person)}/year/2018`)
+  }
+
   renderQuiz () {
     const { page, showAnswer, tempAnswer } = this.state
     return (
@@ -54,6 +65,7 @@ export default class Quiz extends Component {
         <Avatar
           name="Who am I?"
           src={data[page].img}
+          size={window.matchMedia("(max-width: 600px)").matches ? 'large' : 'x-large'}
         />
         <div style={{maxWidth: '22rem', textAlign: 'center', margin: 'auto'}}>
           <RadioInputGroup
@@ -69,6 +81,7 @@ export default class Quiz extends Component {
           </RadioInputGroup>
         </div>
         <Button variant="primary" onClick={this.selectChild} margin="large" disabled={tempAnswer === ''}>Next</Button>
+        {this.renderGoBack()}
       </div>
     )
   }
@@ -79,10 +92,12 @@ export default class Quiz extends Component {
 
     return (
       <div key={`${answer.answer}${i}`} style={{margin: 'auto', textAlign: 'center', maxWidth: '60rem'}}>
-        <Avatar
-          src={answer.img}
-          name=""
-        />
+        <Link onClick={this.goToBio(answer.answer)}>
+          <Avatar
+            src={answer.img}
+            name=""
+          />
+        </Link>
         {guess === answer.answer
           ? <Alert
               variant="success"
@@ -131,6 +146,14 @@ export default class Quiz extends Component {
     </div>
   }
 
+  renderGoBack () {
+    return <div>
+      <Link onClick={this.backToWelcome}>
+        Go Back to Main Page
+      </Link>
+    </div>
+  }
+
   renderResults () {
     const results = []
     let correctCount = 0
@@ -144,6 +167,7 @@ export default class Quiz extends Component {
       <div style={{textAlign: 'center', margin: 'auto'}}>
         {this.renderCongratulations(correctCount)}
         {results}
+        {this.renderGoBack()}
       </div>
     )
   }

@@ -67,18 +67,22 @@ export default class Welcome extends Component {
             variant="info"
           >
             <Link onClick={this.takeQuiz}>
-              Play the baby guessing game!
+              Click here to play the baby guessing game!
             </Link>
           </Alert>
         </div>
         <Flex justifyItems="center" margin="small xx-large" wrapItems>
           {this.renderMembers()}
         </Flex>
+        <div style={{margin: 'auto', textAlign: 'center', marginBottom: '1rem'}}>
+         Click the portraits of a person to read more!
+        </div>
         <div style={{maxWidth: '15rem', margin: 'auto'}}>
           <Select
             label="Year"
             value={this.props.year}
             onChange={this.handleYearChange}
+            margin="medium none none small"
           >
             <option value="2018">2018</option>
             <option value="2017">2017</option>

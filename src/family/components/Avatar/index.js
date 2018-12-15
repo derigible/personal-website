@@ -9,7 +9,7 @@ class Avatar extends Component {
   static propTypes = {
     src: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    size: PropTypes.oneOf(['small', 'large'])
+    size: PropTypes.oneOf(['small', 'large', 'x-large'])
   }
 
   static defaultProps = {
@@ -17,7 +17,13 @@ class Avatar extends Component {
   }
 
   render () {
-    const styleOverrides = this.props.size === 'small' ? {width: '15rem', height: '15rem'} : {}
+    let styleOverrides = {}
+    if (this.props.size === 'small') {
+      styleOverrides = {width: '15rem', height: '15rem'}
+    }
+    if (this.props.size === 'x-large') {
+      styleOverrides =  {width: '40rem', height: '40rem', borderRadius: '20rem'}
+    }
     return (
       <div className={styles.image} style={{backgroundImage:`url(${this.props.src})`, ...styleOverrides}}/>
     )
