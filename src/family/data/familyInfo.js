@@ -1,4 +1,13 @@
 export default {
+  '2019': [
+    {
+      type: 'text',
+      data: `Another year, another baby. At least, that is the crowning highlight of this
+      year. Brinley joined us in late June and has made a great impact on all of us. From
+      more nights of poor sleep, to lots of smiles and laughs, our family's expansion has
+      been a growing experience (pun intended).`
+    }
+  ],
   '2018': [
     {
       type: 'text',

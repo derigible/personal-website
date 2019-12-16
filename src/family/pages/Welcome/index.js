@@ -22,7 +22,7 @@ export default class Welcome extends Component {
   }
 
   static defaultProps = {
-    year: '2018'
+    year: '2019'
   }
 
   handleYearChange (_, value) {
@@ -84,6 +84,7 @@ export default class Welcome extends Component {
             onChange={this.handleYearChange}
             margin="medium none none small"
           >
+            <option value="2019">2019</option>
             <option value="2018">2018</option>
             <option value="2017">2017</option>
             <option value="2016">2016</option>
