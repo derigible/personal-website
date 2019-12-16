@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import Alert from '@instructure/ui-alerts/lib/components/Alert'
-import Heading from '@instructure/ui-elements/lib/components/Heading'
-import Link from '@instructure/ui-elements/lib/components/Link'
-import Select from '@instructure/ui-forms/lib/components/Select'
-import Text from '@instructure/ui-elements/lib/components/Text'
-import Flex, {FlexItem} from '@instructure/ui-layout/lib/components/Flex'
+import {Alert} from '@instructure/ui-alerts'
+import {Heading} from '@instructure/ui-elements'
+import {Link} from '@instructure/ui-elements'
+import {Select} from '@instructure/ui-forms'
+import {Text} from '@instructure/ui-elements'
+import {Flex} from '@instructure/ui-layout'
 
 import Avatar from '../../components/Avatar'
 import Bio from '../../components/Bio'
@@ -42,7 +42,7 @@ export default class Welcome extends Component {
     return members[year].map((member) => {
       const navigate = () => { router.navigate(`/family/member/${member.id}/year/${year}`) }
       return (
-        <FlexItem key={`${member.id}_avatar`} margin="medium large">
+        <Flex.Item key={`${member.id}_avatar`} margin="medium large">
           <Link onClick={navigate}>
             <Avatar
               name={member.name}
@@ -53,7 +53,7 @@ export default class Welcome extends Component {
           <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
             <Text size="large">{member.name}</Text>
           </div>
-        </FlexItem>
+        </Flex.Item>
       )
     })
   }

@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import View from '@instructure/ui-layout/lib/components/View'
+import {View} from '@instructure/ui-layout'
 
 export default class App extends Component {
   static propTypes = {
-    app: PropTypes.string,
-    children: PropTypes.object
+    children: PropTypes.object.isRequired
   }
 
   render () {

@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import theme from '@instructure/ui-themes/lib/canvas'
+import { canvas } from '@instructure/ui-themes'
 
-theme.use()
+canvas.use()
 
 import App from './shared/App'
 

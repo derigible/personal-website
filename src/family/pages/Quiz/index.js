@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import Alert from '@instructure/ui-alerts/lib/components/Alert'
-import Button from '@instructure/ui-buttons/lib/components/Button'
-import Heading from '@instructure/ui-elements/lib/components/Heading'
-import Link from '@instructure/ui-elements/lib/components/Link'
-import RadioInput from '@instructure/ui-forms/lib/components/RadioInput'
-import RadioInputGroup from '@instructure/ui-forms/lib/components/RadioInputGroup'
-import Text from '@instructure/ui-elements/lib/components/Text'
-import capitalize from '@instructure/ui-utils/lib/capitalizeFirstLetter'
+import {Alert} from '@instructure/ui-alerts'
+import {Button} from '@instructure/ui-buttons'
+import {Heading} from '@instructure/ui-elements'
+import {Link} from '@instructure/ui-elements'
+import {RadioInput} from '@instructure/ui-forms'
+import {RadioInputGroup} from '@instructure/ui-forms'
+import {Text} from '@instructure/ui-elements'
+import {capitalizeFirstLetter} from '@instructure/ui-utils'
 
 import Avatar from '../../components/Avatar'
 import {router} from '../../../configureRouter'
@@ -18,7 +18,7 @@ import data from './data'
 export default class Quiz extends Component {
   static propTypes = {
     page: PropTypes.string,
-    showAnswer: PropTypes.string
+    showAnswer: PropTypes.string.isRequired
   }
 
   static defaultProps = {
@@ -55,7 +55,7 @@ export default class Quiz extends Component {
   }
 
   goToBio (person) {
-    return () => router.navigate(`/family/member/${capitalize(person)}/year/2018`)
+    return () => router.navigate(`/family/member/${capitalizeFirstLetter(person)}/year/2018`)
   }
 
   renderQuiz () {

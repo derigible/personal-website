@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import Heading from '@instructure/ui-elements/lib/components/Heading'
-import Link from '@instructure/ui-elements/lib/components/Link'
-import Select from '@instructure/ui-forms/lib/components/Select'
+import {Heading, Link} from '@instructure/ui-elements'
+import {Select} from '@instructure/ui-forms'
 
 import Avatar from '../../components/Avatar'
 import Bio from '../../components/Bio'

@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 
-import Text from '@instructure/ui-elements/lib/components/Text'
-import Responsive from '@instructure/ui-layout/lib/components/Responsive'
-import View from '@instructure/ui-layout/lib/components/View'
+import {Text} from '@instructure/ui-elements'
+import {Responsive, View} from '@instructure/ui-layout'
 
 export default class Bio extends Component {
   static propTypes = {
-    bioInfo: PropTypes.array
+    bioInfo: PropTypes.array.isRequired
   }
 
   renderBio () {
