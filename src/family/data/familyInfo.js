@@ -2,10 +2,54 @@ export default {
   '2019': [
     {
       type: 'text',
-      data: `Another year, another baby. At least, that is the crowning highlight of this
-      year. Brinley joined us in late June and has made a great impact on all of us. From
-      more nights of poor sleep, to lots of smiles and laughs, our family's expansion has
-      been a growing experience (pun intended).`
+      data: `It is our hope and dream that someday we will move to a house that we love and will be
+      there for a good chunk of years, but this was not that year. Instead, in March, our family
+      moved from a fairly sizable family home to another rental property that is 600 sq/ft smaller
+      than the last place we lived. The newfound closeness has brought us a realization of many
+      things, but the most important being that no matter where you are, your attitude is what makes
+      you happy.`
+    },
+    {
+      type: 'text',
+      data: `As for those attitudes, around our house they have ranged from wild, bold, and defiant
+      to emotional, submissive, and tragic. Life with Marley, Whitley, and Brinley has unfolded
+      much like a teenage soap opera at times (and yes, there have even been lots of discussions
+      about boys already with Whitley - mostly how she “doesn’t” like them). With so little living
+      space it sometimes can be hard for us not step on each other’s toes, and so the emotions run
+      high quite often.`
+    },
+    {
+      type: 'text',
+      data: `Thankfully this year has seen us go all sorts of fun places and get out of our little
+      hovel frequently. Andrea and the girls continue to make frequent visits to the library where
+      they check out about 50 books a week, all to be consumed by them within the first couple of
+      days. Outings to local museums and zoos have also been a hit, met with much screaming and
+      running around by everyone. Frequent trips to Costco have also become a norm as we have
+      learned to take advantage of their excellent cheap meals and an easy way to get the girls
+      out of the house.`
+    },
+    {
+      type: 'text',
+      data: `In April, Marc and Andrea visited Croatia for over a week while the girls stayed with
+      their grandparents. It was probably harder on Andrea than it was on the girls to leave for so
+      long. Later in the summer we spent a couple of weeks in Richland, Washington to visit Marc’s
+      parents and to see some interesting historical sites out there (such as the plutonium plants
+      used to help build the first atomic bombs).`
+    },
+    {
+      type: 'text',
+      data: `The relationship between Whitley, Marley, and Brinley continues to be adorable and
+      fun. Brinley, who last year we thought had the sweet, calm temperament of Whitley, has
+      morphed into a wild, defiant, and goofy girl like Marley. The two (Brinley and Marley)
+      are constantly battling for most visible member of the family. Whitley starting preschool
+      in September has really helped their relationship grow as they now have a couple hours every
+      morning with just the two of them. Princesses, unicorns, and all things cute are in vogue
+      right now at our house.`
+    },
+    {
+      type: 'text',
+      data: `Besides the move, the trips, and the library visits, it has been a quiet year. We look
+      forward to what 2020 will bring.`
     }
   ],
   '2018': [

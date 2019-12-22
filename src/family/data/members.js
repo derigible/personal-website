@@ -9,21 +9,39 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `Highlights of Marc's year include being called into the ward Bishopric as second counselor
-          and then later called to be the first counselor (a calling he has enjoyed immensely). He has also
-          spent a good deal of time learning how to enjoy working at a job for more than two years (the longest
-          time he has ever had a job was a year and a half!) and can happily say that he is content with his
-          state in life and isn't seeking to change companies. He also took on a role of being part of an
-          international standards body in education technology that has been an enriching experience for him.
+          data: `For the most part, this year has been a whirlwind for Marc as he has continued to
+          face upheaval at work and with his real estate business. Once again Marc has had three
+          different managers in a year - the second time this has occurred while at Instructure
+          (that makes seven managers in 4 years). His team at work has also changed dramatically
+          and frequently, making it feel like he has had three different teams this year when in
+          reality he has only had one. With Instructure also deciding to sell itself to a private
+          equity firm, and with the change of much of the leadership in the organization, it has
+          really changed his job to the point where it feels like a totally different company to him.
+          It will be interesting to see how his job evolves over the next year.
           `
         },
         {
           type: 'section',
-          data: `Outside of work Marc has been busy cleaning up his yard, taking care of his girls, maintaining
-          the beard he has decided to keep around for awhile, and playing
-          as much Magic: The Gathering as he can afford. He still very much loves a good Netflix binge, so that
-          will often take away his time from Magic when he does get time to slack off. But, for the most part,
-          he has enjoyed participating in many of the family trips and adventures that the family has done.`
+          data: `As for the real estate, moving to a new home has been much more difficult this
+          time around than the previous time. Several apartments have switched occupants,
+          though thankfully some of the ones who have stayed have been great. He is hoping
+          that this next year will see some more stability as far as rentals are concerned and he
+          won’t have to dream of selling them all again.`
+        },
+        {
+          type: 'section',
+          data: `Marc is still serving as a 1st counselor in the Bishopric of his ward and still is
+          enjoying it, though much of the novelty has dissipated at this point. He also has enjoyed
+          having Paul and Mandy’s family back in Utah and has done several activities with them.
+          Paul and Marc have even started a business together, though it has yet to really start
+          doing anything (hopefully this will change in 2020).`
+        },
+        {
+          type: 'section',
+          data: `Pretty much all of Marc’s free time has been spent with the girls or watching
+          Netflix. Occasionally a good book will sneak in, but that can be dangerous as regulation
+          on reading time is weak and can lead to late nights and grumpy days. Learning to balance
+          entertainment, goals, and family will be a top priority this coming year.`
         }
       ]
     },
@@ -35,21 +53,23 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `Defining moments of Andrea's year include her pregnancy that ended in July, frequent library
-          trips with the girls, aquarium trips with the girls, shopping with the girls, and trying to get the
-          girls to nap. Essentially, 2019 was the year of child rearing and bearing for Andrea. That isn't to
-          say that she hasn't done other things of note, but certainly those other things pail in comparison to
-          the monumental feat of raising two hyper little girls while being pregnant with a third. Thankfully
-          she is a big fan of books and aquariums, because shopping has near driven her mad.`
+          data: `Defining moments of Andrea's year include frequent library trips with the girls,
+          museum trips with the girls, shopping with the girls, and trying to get the girls to nap.
+          Essentially, 2019 was the year of child rearing for Andrea (much like 2018). That isn't
+          to say that she hasn't done other things of note, but certainly those other things pale
+          in comparison to the monumental feat of raising three hyper little girls while also
+          moving and learning to develop her own hobbies and likes. She has also started to do more
+          things with the women in our ward as she has made friends through the mom group she leads.`
         },
         {
           type: 'section',
-          data: `Other notable parts to Andrea's year have been her conquering the meal planning devil that has
-          plagued her for years (and it has been a tasty development indeed), becoming a life development planner for her
-          beautiful daughters, and filling the role organization specialist in her engergetic household. She often times will
-          be more than willing to end the day watching Netflix before bed as it helps unwind from the whirlwind of the day.
-          She does love what she does, but often she is left reminding herself that, in a few years, the little kid stage will
-          end and she will be left trying to fill her time where once only chaos reigned.`
+          data: `Andrea still loves what she does and reminds herself everyday of the shortness of
+          these years with little girls. She does an admirable job of making sure her daughters get
+          to experience new and wonderful things. Her phone gets lots of use looking up events,
+          attractions, and activities for the girls and the family to do. Our family has done
+          several new things because she has not been content sitting on her laurels and waiting
+          for life to happen.
+`
         }
       ]
     },
@@ -61,37 +81,48 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `Whitley's growth has been fun and wonderful to behold. From shy little two year old who struggled to move
-          out of Nursery into sunbeams, to the radiant, loving, and (mostly) brave girl she is today, Whitley has had a
-          truly transformative year. Not only did she learn to conquer the nervousness of performing in front of people
-          at the Festival of Trees with her dance class, she also delivered a very good talk in front of the ward during
-          her primary program without any help or goading. Nerves and a little bit of shyness still creep in occasionally,
-          but she rarely struggles anymore with being around strangers or doing things in front of people.`
+          data: `The best thing about watching Whitley grow this past year has been her surprising
+          ability to make friends wherever she goes. Due to her sometimes shy and reserved nature,
+          she worried about making friends in preschool and primary. Instead, Whitley has
+          flourished and made several friends in her classes and pushed herself out of her comfort
+          zone socially.`
         },
         {
           type: 'section',
-          data: `As was mentioned, Whitley has started her first official "school" (as she likes to call it). Inspired by
-          movies like "Leap" she was excited to go to ballerina school. Her reception of the dance classes has been mixed,
-          but overall she enjoys them (we think), or at least she says she wants to keep doing them. We aren't really sure
-          what she thinks, but we are pretty sure she wants to continue learning to dance. Watching her trying to do the
-          dances just right is always a treat and we hope she continues to try new things along with dancing.`
+          data: `Besides growing in social and emotional intelligence, Whitley has also been
+          growing intellectually in academic endeavors. Preschool, coupled with a state run program
+          called Upstart, has taught Whitley to confidently recognize all her letters, write her
+          name, and even start to read some words. We have also worked with her in teaching her
+          basic arithmetic, including very simple division. She loves to learn and gets so excited
+          to show us her newfound skills.`
         },
         {
           type: 'section',
-          data: `Whitley has started to learn how to count and recognize letters and words. She
-          has always loved books, and this year she officially completed the 1000 books before kindergarten challenge the
-          Salt Lake County Library system does for kids. This means she has read far more than a 1000 books in her life already
-          because we didn't count the books we read in American Fork, and we didn't count the books we own on our shelves at home.
-          This was all done within the last couple of years, showing just how much she loves to read.`
+          data: `Art has become a love of Whitley’s, something that she very much enjoys doing at
+          all times of the day. Her favorite subject matter is her family, mostly her and her
+          sisters. This reflects on the wonderful relationship she has fostered with her siblings,
+          including Brinley. Watching the loving way she cares for Brinley has been a joy - when we
+          moved Brinley into her room she has made sure to care for her when she cries and even
+          lets her sleep in her bed in the morning when she wakes up. Whitley is a wonderful big
+          sister and is sensitive to the needs of her parents as well and often finds ways to help
+          out on her own.`
         },
         {
           type: 'section',
-          data: `Much of the things she did last year are still the same (such as playing with Marley and watching Sophia), but she
-          also has continued to develop in so many astonishing and wonderful ways. Tantrums and unreasonable fits aside (how many times
-          can a girl be upset that her shirt's neckline is a little too high before she gets a different shirt?), she is still a
-          sweet little angel who seeks to help and be loving and loved by others. We are excited to see how she will continue
-          to change in the coming year as we prepare to put her into more education classes (possibly preschool, but maybe just other
-          things that will teach her new things.) She likes to learn, so we are excited to help her do so.`
+          data: `That is not to say that she doesn’t have her moments of frustration for her
+          parents. For one, we cannot figure out why she gets so emotional over the clothes she
+          wears (a new constant fight at the beginning of preschool). She also can be quite
+          manipulative of her sisters, suggesting things that are clearly not a fair trade so she
+          can get what she wants. `
+        },
+        {
+          type: 'section',
+          data: `We love our little Whitley, and we look forward to seeing her grow in the next
+          year even more. This year she got glasses and had to wear eye patches for a while which
+          she endured gracefully. Next year we hope that she will be able to continue to avoid eye
+          surgery altogether like the doctor is hopeful will happen. We also can’t wait to see her
+          start reading, as we are sure she will discover all sorts of new and creative ways to play
+          with her siblings.`
         }
       ]
     },
@@ -103,45 +134,56 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `As I sit down to write this, I find it difficult to write a synopsis of Marley's year without going off about
-          just how much she is different than Whitley. I know that one should not compare children, but it is hard not to when
-          Marley is, in so many ways, the opposite of Whitley. Yet, she still has several of the same endearing and wonderful
-          traits of her sister, which, combined with several other traits unique to her, has made watching her grow throughout
-          the year wonderful, frightening, pride-inducing, angering, and a myriad other emotions all at once. One cannot think
-          of Marley and not think of her as being a fire-cracker of a person.`
+          data: `Marley, Marley, Marley… Every year when it comes time to write about her it just
+          seems daunting - where to begin? What to include? And how can we say it without making it
+          sound like she is a devil child but actually an incredibly sensitive, tender, and
+          wonderful little girl? Those who have met Marley usually instantly fall in love with her
+          high-pitched voice, unusually high-level of speech for one her size, and her bold, loud,
+          and energetic personality.`
         },
         {
           type: 'section',
-          data: `Marley has been able to speak for pretty much the entirety of this year (perhaps minus a couple of months),
-          which has been both a blessing and a curse. A blessing because it has made things like getting what she wants easier since
-          she can just tell us in words; a curse because it is easy to forget that she is only 1 or 2 and not the same age as Whitley.
-          Coupled with a strong personality and a fierce determination to not be pushed down, Marley has often been found telling kids
-          twice her size what to do at the playground. Often these kids are 4 or 5 year olds, so the sight of little Marley (who is already
-          quite small for her age) telling these kids what to do can be hilarious and scary.`
+          data: `Each day is an adventure with Marley, whether she has had adequate sleep or not.
+          Most days she wakes up in a happy mood that leads her to sing loudly and cackling with
+          joy in mom and dad’s room, but occasionally she wakes up groggy and the most
+          teenager-esque attitude of any of our children. A common refrain we hear is “just wait
+          until she is a teenager,” which often we think (hope?) that they just don’t know what it
+          is like living with Marley - we already are told at least once a week that she doesn’t
+          love us, so can it really be that different?`
         },
         {
           type: 'section',
-          data: `Her skills in other areas besides speech have also increased. She is learning how to count, recognize letters, and sing
-          songs (her favorite being "I Belong to the Church of Jesus Christ"). Because Whitley is her closest and best friend, she wants to
-          do just about everything Whitley is doing, including learning how to dance and likes to watch what Whitley is learning from the
-          sidelines. Perhaps she will want to pick up dance like her sister in the future. She definitely has a flair for emotion, passion,
-          and energy, which all serve well for the arts. She loves to color and draw and can often be found scribbling on things (like the wall).`
+          data: `Some of the things Marley really enjoys doing include singing, dramatic role
+          playing (think princess in distress), singing, reading, watching movies, singing,
+          dancing, and… singing. A day doesn’t go by where she hasn’t spent a good deal of it
+          singing a song she either has made up (usually it is a long oratorio about the game she
+          is playing in her head), or reciting a song word for word that she has only heard a
+          handful of times. The amount of times someone dies in her songs, or the amount of times
+          someone is killed, can be worrisome, but what great artist isn’t fascinated with such
+          morbid things?`
         },
         {
           type: 'section',
-          data: `Marley's temperament has also changed this year. She is still quite a handful, but she can also be found reading a book by herself,
-          or playing quietly with her kitchen playset without anyone else around. She enjoys having alone time, but she also
-          loves to help with whatever you are doing at the moment. But, she also is quick to scream and let her feelings be known. Like her
-          father, she can be incredibly stubborn, which has led to some learning moments and lots of time-out time. But the good always outweigh
-          the bad with her, so don't think she is a pain to have around - quite the opposite. Marley brings a spunk and dynamic to all things
-          she does.`
+          data: `Developmentally Marley has continued to act as though she is Whitley’s age. Often
+          when playing with large groups of kids that vary in age, she will tend to play with the
+          older girls. Towards the end of the year she has learned to play more with girls her age
+          as they are starting to show much of the same imaginative gameplay that Marley has always
+          enjoyed with Whitley. We also think that having Brinley to herself every morning since
+          September has helped her learn to play with younger children.`
         },
-       {
+        {
           type: 'section',
-          data: `As for other developments in her life, she has enjoyed being in nursery, becoming an older sister, learning that she can sing
-          and singing all the time, loving to be read to, and, above all else, loves to attack "the monster" (aka, daddy). She has a very vivid and
-          active imagination and loves to play all sorts of games. It will be a joy to see the various aspects of her life continue to form and develop
-          over the next year.`
+          data: `We certainly do love Marley, and so does everyone who spends time with her. She
+          says some truly funny things and is often good for a laugh. But she is also very
+          thoughtful (at times) and definitely has a soft spot. She loves cuddling for naps and at
+          night and will insist on something to cuddle with at bedtime.`
+        },
+        {
+          type: 'section',
+          data: `With such a dynamic personality as Marley, it can sometimes be difficult to focus
+          on just a few things that define her. What she does this next year with preschool and
+          continued use of the Upstart program will be interesting as she starts to learn to read.
+          We really look forward to seeing how she changes in the coming year.`
         }
       ]
     },
@@ -153,24 +195,59 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `So much of who Brinley is can be summed up into one word: smiles. She is the smiliest baby we have had and her gummy little grin
-          brightens our day each time she flashes it at us. From the begining it was clear that Brinley was different from either of her sisters
-          because she was slightly shorter when she was born (Whitley and Marley were both the exact same weight and height). Obviously all children
-          are different, but Brinley has been unique in that she is actually on the growth charts! It can be difficult carrying her around all day
-          because she weighs the same as an average baby. We finally see why people complain about hauling babies around everywhere!`
+          data: `We definitely were wrong about what we could expect for Brinley when she started to
+          develop. With Marley and Whitley we were pretty sure we could start to see patterns of who
+          they were going to be by the time they were six months old; but with Brinley it has been
+          an unexpected development to see who she has become. Perhaps it is being the third child,
+          or perhaps it is because she has been unusually large for our children (which means that
+          she is more capable of standing up for herself than the others), but Brinley is a force
+          all her own.`
         },
         {
           type: 'section',
-          data: `She has changed a lot since she has come to us, and we are grateful to have her here. She loves her sisters, mom, dad, and just
-          about anyone else who holds her. But she is quick to anger and doesn't really give much warning before belting out a scream. She is quite
-          tolerant though, so it is not always a problem that she screams so loudly when upset. She doesn't even mind when her sisters lay on her,
-          in fact she seems to almost enjoy abuse because it means she is given attention (which she doesn't lack, just about everyone loves her).`
+          data: `So how is she different? For starters she is more like Marley than Whitley than we
+          had originally thought in that she is much more bold and stubborn in the things she does.
+          But unlike Marley, she is much more willing to listen to directions from mom and dad. Like
+          Marley she is quick to anger and will scream for (literally) hours on end if she doesn’t
+          get what she wants. Unlike Marley (and more like Whitley) getting her to calm down can be
+          as simple as holding her (Marley would often squirm out of our arms and saying we were
+          holding her too tight). In summation: Brinley is neither Whitley or Marley, nor is she a
+          combination of the two. She is entirely her own girl who we love.`
         },
         {
           type: 'section',
-          data: `Brinley was born in June, and shortly after coming out, was able to see all sorts of sights - from Yellowstone to Crystal Hot Springs.
-          That is quite a bit for her short time here, but it is hard to imagine how life would be without her, she is such a part of our family already.
-          We love waking up to her smiles and will continue to drink them in as long as she gives them.`
+          data: `And so what kind of a girl is Brinley? Last year we noticed that she liked to give
+          goofy smiles, and that goofiness continues to be manifested in so many different things.
+          For example, when getting into the car she will sneak over to her sister’s carseat and
+          will stare at us with a gremlin-like grin until we notice and then will giggle and laugh
+          and resist the whole time as we try to get her into her carseat (all the while going stiff
+          as a board and refusing to sit down).`
+        },
+        {
+          type: 'section',
+          data: `Besides being goofy (and finding copious amounts of enjoyment over teasing her
+          sisters), she is also very proud of her accomplishments. She loves to show off her craft
+          work that she does with her grandma and will insist that we hang her work on the walls
+          with her sisters (which we always do). She loves show and tell and will carry her work
+          around and constantly want to share it with us. She also loves to color and, often, it is
+          on anything and everything. She is creative and enjoys playing games with her sisters.`
+        },
+        {
+          type: 'section',
+          data: `Brinley also very much is a fan of her Grandma Carter. This probably stems from her
+          week with her when she was newly born when mom and dad were in Croatia. She prefers
+          grandma even over mom and dad at times, which is adorable and fun to see. She also is a
+          big fan of her sisters and loves to follow them around and do her own thing. But when she
+          is done with them, she is done and wants to be left alone.`
+        },
+        {
+          type: 'section',
+          data: `In that respect Brinley is unique - she does not seem to seek approval from anyone.
+          She marches to the beat of her own drum for sure, and so even though at times it seems she
+          is just being stubborn, it really is her just wanting to be herself. But she is still a
+          sweet little girl, and learning to share has come naturally to her (both sharing what she
+          has and demanding others share with her). We love her and look forward to seeing how she
+          will change in the year ahead.`
         }
       ]
     }

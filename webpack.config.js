@@ -9,12 +9,12 @@ const ENV = [
   'API_PROTOCOL',
   'NODE_ENV'
 ].reduce((env, name) => {
-  // eslint-disable-next-line no-param-reassign, immutable/no-mutation
+  // eslint-disable-next-line no-param-reassign
   env[name] = JSON.stringify(process.env[name])
   return env
 }, {})
 
-const webpackDevServerUrl = process.env.SERVER_URL || 'http://localhost:8081/'
+const webpackDevServerUrl = process.env.SERVER_URL || 'http://localhost:8080/'
 
 const buildPlugins = [
   new webpack.DefinePlugin({
@@ -40,7 +40,7 @@ const buildConfig = {
     inline: true,
     noInfo: false,
     publicPath: webpackDevServerUrl,
-    public: 'localhost:8081',
+    public: 'localhost:8080',
     stats: {
       assets: true,
       cached: true,
