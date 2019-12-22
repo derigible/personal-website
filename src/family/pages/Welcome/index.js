@@ -47,6 +47,7 @@ export default class Welcome extends Component {
             <Avatar
               name={member.name}
               src={member.img}
+              hoverSrc={member.hoverImg}
               size={(members[year].length < 5 || window.matchMedia("(max-width: 600px)").matches) ? "large" : "small"}
             />
           </Link>

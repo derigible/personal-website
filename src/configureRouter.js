@@ -1,4 +1,3 @@
-import React from 'react'
 import Router from 'middle-router'
 
 import NotFound from './errors/NotFound'
@@ -8,9 +7,9 @@ const configureRouter = () => {
     .lazy('/family', () => new Promise((resolve) => require.ensure(
       [], (require) => resolve(require('./family/router').default), 'family'
     )))
-    .use('/*', ({ path, resolve, exiting }) => {
-      resolve({view: <NotFound />, app: 'notFound'})
-    })
+    .lazy('/', () => new Promise((resolve) => require.ensure(
+      [], (require) => resolve(require('./family/router').default), 'family'
+    )))
 }
 
 export default configureRouter

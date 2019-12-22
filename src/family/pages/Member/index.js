@@ -58,7 +58,9 @@ export default class Member extends Component {
             <Link onClick={navigate}>
               <Avatar
                 name={member.name}
-                src={member.img} />
+                src={member.img}
+                hoverSrc={member.hoverImg}
+              />
             </Link>
           </div>
         </div>

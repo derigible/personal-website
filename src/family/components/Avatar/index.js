@@ -8,12 +8,30 @@ import theme from './theme'
 class Avatar extends Component {
   static propTypes = {
     src: PropTypes.string.isRequired,
+    hoverSrc: PropTypes.string,
     name: PropTypes.string.isRequired,
     size: PropTypes.oneOf(['small', 'large', 'x-large'])
   }
 
   static defaultProps = {
-    size: 'large'
+    size: 'large',
+    hoverSrc: null
+  }
+
+  state = {
+    isHover: false
+  }
+
+  image = () => {
+    return this.state.isHover && this.props.hoverSrc ? this.props.hoverSrc : this.props.src
+  }
+
+  handleOnHover = () => {
+    this.setState({isHover: true})
+  }
+
+  handleOnBlur = () => {
+    this.setState({isHover: false})
   }
 
   render () {
@@ -25,7 +43,14 @@ class Avatar extends Component {
       styleOverrides =  {width: '40rem', height: '40rem', borderRadius: '20rem'}
     }
     return (
-      <div className={styles.image} style={{backgroundImage:`url(${this.props.src})`, ...styleOverrides}}/>
+      <div
+        className={styles.image}
+        style={{backgroundImage:`url(${this.image()})`, ...styleOverrides}}
+        onMouseOver={this.handleOnHover}
+        onFocus={this.handleOnHover}
+        onBlur={this.handleOnBlur}
+        onMouseOut={this.handleOnBlur}
+      />
     )
   }
 }
