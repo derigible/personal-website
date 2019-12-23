@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import themeable from '@instructure/ui-themeable'
+import debounce from 'lodash/debounce'
 
 import styles from './styles.css'
 import theme from './theme'
@@ -20,6 +21,21 @@ class Avatar extends Component {
 
   state = {
     isHover: false
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScrolling)
+  }
+
+  stopScrolling = debounce(() => {
+    this.setState({isHover: false})
+   }, 250, {trailing: true})
+
+  handleScrolling = () => {
+    if (!this.state.isHover) {
+      this.setState({isHover: true})
+    }
+    this.stopScrolling()
   }
 
   image = () => {

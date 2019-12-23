@@ -60,6 +60,7 @@ export default class Welcome extends Component {
   }
 
   render () {
+    const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches
     return (
       <div>
         <div style={{margin: 'auto', textAlign: 'center', color: '#8e8ef7', maxWidth: '25rem'}}>
@@ -72,7 +73,7 @@ export default class Welcome extends Component {
             </Link>
           </Alert>
         </div>
-        <Flex justifyItems="center" margin="small xx-large" wrapItems>
+        <Flex justifyItems="center" margin={isMobile ? "" : "small xx-large"} wrapItems>
           {this.renderMembers()}
         </Flex>
         <div style={{margin: 'auto', textAlign: 'center', marginBottom: '1rem'}}>

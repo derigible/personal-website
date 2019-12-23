@@ -14,7 +14,7 @@ const ENV = [
   return env
 }, {})
 
-const webpackDevServerUrl = process.env.SERVER_URL || 'http://localhost:8080/'
+const webpackDevServerUrl = process.env.SERVER_URL || 'http://localhost:8081/'
 
 const buildPlugins = [
   new webpack.DefinePlugin({
@@ -40,7 +40,7 @@ const buildConfig = {
     inline: true,
     noInfo: false,
     publicPath: webpackDevServerUrl,
-    public: 'localhost:8080',
+    public: 'localhost:8081',
     stats: {
       assets: true,
       cached: true,
