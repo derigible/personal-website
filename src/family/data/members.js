@@ -5,7 +5,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marc2019.jpg',
-      hoverImg: '/family/data/marcStarWars1.jpg',
+      hoverImg: '/family/data/marcStarWars.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -50,7 +50,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2019.jpg',
-      hoverImg: '/family/data/andreaStarWars1.jpg',
+      hoverImg: '/family/data/andreaStarWars.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -262,6 +262,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marc2018.jpg',
+      hoverImg: '/family/data/marcIncredibles.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -288,6 +289,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2018.jpg',
+      hoverImg: '/family/data/andreaIncredibles.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -314,6 +316,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: '/family/data/whitley2018.jpg',
+      hoverImg: '/family/data/whitleyIncredibles.jpg',
       color: '#b0ff5f',
       bio: [
         {
@@ -356,6 +359,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: '/family/data/marley2018.jpg',
+      hoverImg: '/family/data/marleyIncredibles.jpg',
       color: '#bf8dea',
       bio: [
         {
@@ -406,6 +410,7 @@ export default {
       id: 'Brinley',
       name: 'Brinley Ann',
       img: '/family/data/brinley2018.jpg',
+      hoverImg: '/family/data/brinleyIncredibles.jpg',
       color: 'rgb(253, 117, 178)',
       bio: [
         {
@@ -437,6 +442,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marc2017.jpg',
+      hoverImg: '/family/data/marcSuperHero.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -504,6 +510,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2017.jpg',
+      hoverImg: '/family/data/andreaSuperHero.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -567,6 +574,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: '/family/data/whitley2017.jpg',
+      hoverImg: '/family/data/whitleySuperHero.jpg',
       color: '#b0ff5f',
       bio: [
         {
@@ -629,6 +637,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: '/family/data/marley2017.jpg',
+      hoverImg: '/family/data/marleySuperHero.jpg',
       color: '#bf8dea',
       bio: [
         {
@@ -706,6 +715,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marc2016.jpg',
+      hoverImg: '/family/data/marcMoana.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -730,6 +740,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2016.jpg',
+      hoverImg: '/family/data/andreaMoana.jpg',
       color: '#5fffc6',
       bio: [
         {
@@ -754,6 +765,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: '/family/data/whitley2016.jpg',
+      hoverImg: '/family/data/whitleyMoana.jpg',
       color: '#b0ff5f',
       bio: [
         {
@@ -783,6 +795,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: '/family/data/marley2016.jpg',
+      hoverImg: '/family/data/marleyMoana.jpg',
       color: '#bf8dea',
       bio: [
         {
