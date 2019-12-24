@@ -39,9 +39,7 @@ src/config/*.json
 
 docker-compose.override.yml
 
-dist/index.html
-dist/*.js
-dist/*.js.map
+dist*
 lib
 __build__
 .slacker

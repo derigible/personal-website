@@ -1,8 +1,12 @@
 const webpack = require('webpack')
+const { resolve } = require('path')
 const baseConfig = require('@instructure/ui-webpack-config')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin')
 
 require('dotenv').config()
+
+const src = resolve(__dirname, 'src')
 
 const ENV = [
   'API_HOST',
@@ -69,19 +73,53 @@ const buildOutput = {
   publicPath: webpackDevServerUrl
 }
 
-module.exports = {
-  ...baseConfig,
-  ...buildConfig,
-  output: {
-    ...baseConfig.output,
-    ...buildOutput
-  },
-  plugins: [ ...baseConfig.plugins, ...buildPlugins ],
-  module: {
-    // note: put your rules first
-    rules: [...baseConfig.module.rules ]
-  },
-  resolveLoader: {
-    alias: { ...baseConfig.resolveLoader.alias }
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    return {
+      ...baseConfig,
+      ...buildConfig,
+      output: {
+        ...baseConfig.output,
+        ...buildOutput
+      },
+      plugins: [ ...baseConfig.plugins, ...buildPlugins ],
+      module: {
+        // note: put your rules first
+        rules: [...baseConfig.module.rules ]
+      },
+      resolveLoader: {
+        alias: { ...baseConfig.resolveLoader.alias }
+      }
+    }
+  }
+
+  if (argv.mode === 'production') {
+    return {
+      ...baseConfig,
+      context: src,
+      mode: "production",
+      bail: true,
+      devtool: false, // webpack build uses too much memory with source maps
+      entry: './index.js',
+      output: Object.assign({}, baseConfig.output, buildOutput, {publicPath: '/'}),
+      plugins: [
+        ...baseConfig.plugins,
+        new HtmlWebpackPlugin({
+          inject: true,
+          template: 'index.html',
+          minify: {
+            collapseWhitespace: true,
+            minifyCSS: true,
+            removeAttributeQuotes: true,
+            removeOptionalTags: true,
+            removeScriptTypeAttributes: true
+          }
+        }),
+        new ScriptExtHtmlWebpackPlugin({
+          defaultAttribute: 'defer',
+          inline: 'manifest'
+        })
+      ].filter((p) => p)
+    }
   }
 }
