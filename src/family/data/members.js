@@ -740,7 +740,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2016.jpg',
-      hoverImg: '/family/data/andreaMoana.jpg',
+      hoverImg: '/family/data/andreaMoana.png',
       color: '#5fffc6',
       bio: [
         {
