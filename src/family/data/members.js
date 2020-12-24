@@ -5,7 +5,7 @@ export default {
       id: 'Marc',
       name: 'Marc Alan',
       img: '/family/data/marc2020.jpg',
-      hoverImg: '/family/data/marcStarWars.jpg',
+      hoverImg: '/family/data/marcMonsters.jpg',
       color: '#5fabff',
       bio: [
         {
@@ -36,7 +36,7 @@ export default {
       id: 'Andrea',
       name: 'Andrea Carter',
       img: '/family/data/andrea2020.jpg',
-      hoverImg: '/family/data/andreaStarWars.jpg',
+      hoverImg: '/family/data/andreaMonsters.webp',
       color: '#5fffc6',
       bio: [
         {
@@ -69,7 +69,7 @@ export default {
       id: 'Whitley',
       name: 'Whitley Marie',
       img: '/family/data/whitley2020.jpg',
-      hoverImg: '/family/data/whitleyStarWars.jpg',
+      hoverImg: '/family/data/whitleyMonsters.webp',
       color: '#b0ff5f',
       bio: [
         {
@@ -111,7 +111,7 @@ export default {
       id: 'Marley',
       name: 'Marley Jean',
       img: '/family/data/marley2020.jpg',
-      hoverImg: '/family/data/marleyStarWars.png',
+      hoverImg: '/family/data/marleyMonsters.webp',
       color: '#bf8dea',
       bio: [
         {
@@ -161,7 +161,7 @@ export default {
       id: 'Brinley',
       name: 'Brinley Ann',
       img: '/family/data/brinley2020.jpg',
-      hoverImg: '/family/data/brinleyStarWars.jpg',
+      hoverImg: '/family/data/brinleyMonsters.webp',
       color: 'rgb(253, 117, 178)',
       bio: [
         {
@@ -202,7 +202,7 @@ export default {
       id: 'Hadley',
       name: 'Hadley Ruth',
       img: '/family/data/hadley2020.jpg',
-      hoverImg: '/family/data/brinleyStarWars.jpg',
+      hoverImg: '/family/data/hadleyMonsters.jpg',
       color: 'rgb(100, 117, 178)',
       bio: [
         {
