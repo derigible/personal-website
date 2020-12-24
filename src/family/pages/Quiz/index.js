@@ -78,6 +78,7 @@ export default class Quiz extends Component {
             <RadioInput label="Marley" value="marley" />
             <RadioInput label="Whitley" value="whitley" />
             <RadioInput label="Brinley" value="brinley" />
+            <RadioInput label="Hadley" value="hadley" />
           </RadioInputGroup>
         </div>
         <Button variant="primary" onClick={this.selectChild} margin="large" disabled={tempAnswer === ''}>Next</Button>
@@ -129,8 +130,8 @@ export default class Quiz extends Component {
       color = "blue"
       level = "Babysitter"
       message = "You've seen them enough that you must baby sit them to be able to get so many correct. Congrats!"
-    } else if (correctCount < 10 && correctCount > 5) {
-      color = "yellow"
+    } else if (correctCount < 15 && correctCount > 5) {
+      color = "black"
       level = "Regular Human"
       message = "Not too impressive, but not sad either. Most attain these heights."
     } else {

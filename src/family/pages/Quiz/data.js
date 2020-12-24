@@ -4,6 +4,10 @@ const data = [
     answer: 'brinley'
   },
   {
+    img: '/family/data/hadleybaby2.jpg',
+    answer: 'hadley'
+  },
+  {
     img: '/family/data/brinleybaby2.jpg',
     answer: 'brinley'
   },
@@ -16,6 +20,10 @@ const data = [
     answer: 'whitley'
   },
   {
+    img: '/family/data/hadleybaby1.jpg',
+    answer: 'hadley'
+  },
+  {
     img: '/family/data/marleybaby1.jpg',
     answer: 'marley'
   },
@@ -26,6 +34,10 @@ const data = [
   {
     img: '/family/data/whitleybaby1.jpg',
     answer: 'whitley'
+  },
+  {
+    img: '/family/data/hadleybaby3.jpg',
+    answer: 'hadley'
   },
   {
     img: '/family/data/whitleybaby5.jpg',
@@ -48,6 +60,10 @@ const data = [
     answer: 'marley'
   },
   {
+    img: '/family/data/hadleybaby4.jpg',
+    answer: 'hadley'
+  },
+  {
     img: '/family/data/brinleybaby4.jpg',
     answer: 'brinley'
   },
@@ -60,8 +76,8 @@ const data = [
     answer: 'whitley'
   },
   {
-    img: '/family/data/brinleybaby6.jpg',
-    answer: 'brinley'
+    img: '/family/data/hadleybaby5.jpg',
+    answer: 'hadley'
   },
 ]
 export default data

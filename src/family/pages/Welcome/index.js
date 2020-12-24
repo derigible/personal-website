@@ -101,7 +101,7 @@ export default class Welcome extends Component {
             variant="info"
           >
             <Link onClick={this.takeQuiz}>
-              Click here to play the baby guessing game!
+              Click here to play the baby guessing game! Now includes Hadley!
             </Link>
           </Alert>
         </div>
