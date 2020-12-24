@@ -11,7 +11,8 @@ module.exports = Object.assign(
         'no-useless-catch': [0],
         'notice/notice': [0],
         'no-case-declarations': [0],
-        'no-undefined': [0]
+        'no-undefined': [0],
+        'no-console': [0],
       }
     )
   }

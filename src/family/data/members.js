@@ -1,5 +1,217 @@
 /* eslint-disable */
 export default {
+  '2020': [
+    {
+      id: 'Marc',
+      name: 'Marc Alan',
+      img: '/family/data/marc2019.jpg',
+      hoverImg: '/family/data/marcStarWars.jpg',
+      color: '#5fabff',
+      bio: [
+        {
+          type: 'section',
+          data: `This year has been an exciting and difficult year for Marc. In March Andrea and Marc
+          put an offer down on a house in Lehi that was accepted - two days later he was laid off from
+          Instructure. It wasn't a huge blow because Marc had been looking to leave the company for a few
+          months prior, but it was hoped that he would be able to transition to a new job either before
+          or after they moved to a new house.`
+        },
+        {
+          type: 'section',
+          data: `To keep the offer in place, Marc spent the next two weeks
+          going to about 60 different interviews. Four offers later and he landed a good job at CrowdStorage,
+          a distributed storage start up in Lehi. It actually worked out better for Marc due to the
+          closer location and more interesting workload. However, it was a rough few weeks and it certainly
+          never feels good to be laid off. Thankfully he wasn't laid off again after the pandemic struck.`
+        },
+        {
+          type: 'section',
+          data: `Outside of work Marc has been enjoying learning to care for a lot of grass using his riding
+          lawnmower. He also started to pick up a few extra skills, such as gardening. With all that has happened
+          this year he hopes that next year is a lot less hectic and he can focus more on family and other projects.`
+        },
+      ]
+    },
+    {
+      id: 'Andrea',
+      name: 'Andrea Carter',
+      img: '/family/data/andrea2019.jpg',
+      hoverImg: '/family/data/andreaStarWars.jpg',
+      color: '#5fffc6',
+      bio: [
+        {
+          type: 'section',
+          data: `Andrea has had a frantic year learning to adjust to a new household while also learning to become
+          a teacher to Whitley who just entered kindergarten. Along with alos having to take care of a much bigger
+          house and having three little kids with no outlet for their energy outside the home for much the year, it
+          was a strain on her patience and her sanity. However, she has managed it gracefully, all the while spending
+          more than half the year being pregnant with Hadley.`
+        },
+        {
+          type: 'section',
+          data: `She spent most of whatever little freetime she had this year learning to be the primary gardener in
+          our home. Part of that learning is realizing that planting lots of peas when you don't really like peas
+          doesn't really make much sense. It has also been a learning curve understanding how to water, weed, and harvest
+          while having three little helpers. Next year she knows she will have a different line up of plants to grow and
+          she looks forward to trying again (especially attempting to finally get a tomato plant to grow after 8 years of
+          trying).`
+        },
+        {
+          type: 'section',
+          data: `Among many stressors that came into our lives, none have been more pleasant than Hadley and Andrea has done
+          a great job at caring for her. She has made Andrea truly exhausted at times, but she wouldn't trade Hadley for anything.
+          It is great to have so many little friends and helpers in her life, even if it means cleanup can become almost overwhelming
+          every night. This next year we will see if we can get those helpers to actually help.`
+        },
+      ]
+    },
+    {
+      id: 'Whitley',
+      name: 'Whitley Marie',
+      img: '/family/data/whitley2020.jpg',
+      hoverImg: '/family/data/whitleyStarWars.jpg',
+      color: '#b0ff5f',
+      bio: [
+        {
+          type: 'section',
+          data: `Whitley has really grown this year, intellectually, spiritually, emotionally, and, most of all, physically. It is
+          incredible to see just how much taller and stronger she is this year over last year, and it is a little sad to see our first
+          little girl become not so little any more. She has constantly informed us all year that "her clothes don't fit" and have demanded
+          that we go shopping for new cute ones. Of course she has some clothes that fit, they just aren't cute (and that just shows how much
+          of a little girl she is turning into).`
+        },
+        {
+          type: 'section',
+          data: `A big development for her this year is her ability to not only read, but also randomly spell words to communicate with us. One
+          instance was when Andrea was on the phone and Whitley wanted her to spead some jam on her toast. Instead of interrupting Andrea, she
+          wrote on a piece of paper "jam" and slid it onto her lap - all without help. Her cleverness is now being shown in writing and we love it.
+          We also love that she enjoys reading to us and is so proud of her accomplishment there.`
+        },
+        {
+          type: 'section',
+          data: `She also has learned to do basic arithmetic, including multiplication and division. Her greatest feat in this area has been divvying up
+          her halloween candy evenly. She is a smart little girl and it is hard to keep up with her sometimes!`
+        },
+        {
+          type: 'section',
+          data: `It has been hard for her not being able to go to school this year (we decided to homeschool her this year). Explaining to her about the
+          danger of the virus has not been easy and she dearly has missed having friends around that aren't her sister. Thankfully she is
+          a resilient little girl and has made the most of it, playing lots with her sisters and always having a good attitude about
+          her life. She has also loved having her cousins around, so that has helped out a lot. Next year we hope we can go back to church
+          and finally meet some of our neighbors and she can make some new friends.`
+        },
+        {
+          type: 'section',
+          data: `Whitley is a spunky, lovely, happy little girl and she has eased the strain of this year considerably. We love her and look forward to
+          seeing her continued growth in this next year.`
+        },
+      ]
+    },
+    {
+      id: 'Marley',
+      name: 'Marley Jean',
+      img: '/family/data/marley2020.jpg',
+      hoverImg: '/family/data/marleyStarWars.png',
+      color: '#bf8dea',
+      bio: [
+        {
+          type: 'section',
+          data: `Oh what to say about Marley? This girl changes so much and is so very clever that
+          it is hard to really know just how much she understands about her life. The virus has
+          definitely impacted her, but it is hard to really gauge just how much or if she even really
+          noticed. Marley is as spunky, independent yet dependent, obstinant yet sweet, clever yet silly,
+          beautiful and charming that she ever has been.`
+        },
+        {
+          type: 'section',
+          data: `Perhaps the best thing about this year with Marley is watching her imagination flourish
+          in so many categories. She has started learning in her Waterford Upstart about shapes, numbers,
+          and the alphabet, and she will often incorporate those songs and phrases into completley original
+          songs and plays that she comes up with on the fly. She truly has a talent of synthesizing different
+          things she hears and sees into a world of imagination. Between her and Whitley the games they come up
+          with are as deep and intricate as a four year old could develop.`
+        },
+        {
+          type: 'section',
+          data: `Towards the end of the year Marley has grown a fascination with fire. Most nights she talks about
+          what will happen if a fire were to break out in our house, even going so far as to spend entire prayers
+          asking for help during a fire. This singleness of mind has really developed more over the course of this
+          year, and she has come to expect her vision be fulfilled regardless of what others may want. This has
+          led to some confrontations and some timeouts, but she is usually willing to make sure everyone wins in
+          the end.`
+        },
+        {
+          type: 'section',
+          data: `Marley has started her Waterford Upstart preschool program and she has started to learn basic
+          counting and other academic knowledge. It would be a lie to say that she loves learning this way, but
+          it has been effective to the point now where she can count past 20. She definitely is more of a hands
+          on learner though and prefers to act out her imagination over boring learning activities. She is still
+          willing to do it, so hopefully she will learn to be more engaged this next year.`
+        },
+        {
+          type: 'section',
+          data: `Her relationship with her sisters has also developed a great deal this year, especially considering
+          that she has not really had a chance to make any new friends around our new home. This fact hasn't really
+          fazed her that much, especially compared to Whitley. Marley is just happy, loving, and fun. Our lives would
+          be less fun without her, and it is going to be fun to see how she changes over the next year.`
+        },
+      ]
+    },
+    {
+      id: 'Brinley',
+      name: 'Brinley Ann',
+      img: '/family/data/brinley2020.jpg',
+      hoverImg: '/family/data/brinleyStarWars.jpg',
+      color: 'rgb(253, 117, 178)',
+      bio: [
+        {
+          type: 'section',
+          data: `Brinley has taken the crown from Marley for being the loudest and most obstinant child, but
+          that might largely just be the two-year-old phaze. When she isn't outright saying no to requests
+          like "don't write on the floor" and "stop hitting your sister," she is usually a pretty good kid.
+          She also has a very developing imagination and loves to play like she is Elsa and goes around
+          freezing everyone with her hands.`
+        },
+        {
+          type: 'section',
+          data: `It is also very obvious that she watches her sisters in everything they do. Since Whitley and
+          Marley both do online school, Brinley has requested that she also have an online school. So after her
+          sisters are done she gets to do her "upstart" and plays games on pbskids.org. This has been a fun time
+          for her, though it is unclear how much she is really learning from it. She definitely is learning to
+          count and her abcs from watching her sisters schooling, even trying to count to 20 when we play hide
+          and go seek (though she still is unable to count past three or so).`
+        },
+        {
+          type: 'section',
+          data: `With every new child it is always a worry that the older children will feel threatened in their
+          position, but Hadley and Brinley have grown to be good friends over the last several months. Brinley loves
+          to give toys to Hadley and help her play with them. When she has the chance she enjoys reading to her as well.
+          Books are a great love of Brinley and she will find a book, carry it over her head to where you are sitting,
+          and throw it on your lap for you to read with a big grin. At times this has meant that she has hit Hadley because
+          she is not a good aim, but Hadley takes it in stride most of the time.`
+        },
+        {
+          type: 'section',
+          data: `Brinley's firecracker personality means you never really know if you are going to get obedient helpful Brinley,
+          or devil-child screaming Brinley. It is fun either way and she helps keep us on our toes. Someday it will be fun to
+          see which side of her wins out (there is a struggle within her for sure).`
+        },
+      ]
+    },
+    {
+      id: 'Hadley',
+      name: 'Hadley Ruth',
+      img: '/family/data/hadley2020.jpg',
+      hoverImg: '/family/data/brinleyStarWars.jpg',
+      color: 'rgb(100, 117, 178)',
+      bio: [
+        {
+          type: 'section',
+          data: `We've only known Hadley for a few months but i`
+        },
+      ]
+    }
+  ],
   '2019': [
     {
       id: 'Marc',

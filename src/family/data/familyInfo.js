@@ -1,4 +1,50 @@
 export default {
+  '2020': [
+    {
+      type: 'text',
+      data: `Last year I naively wrote "We look forward to what 2020 will bring." Needless to say
+      it was quite a year for our family, much like most other people this year. Social distancing,
+      quarantine, isolation, mask wearing, and every day life being disrupted has become the norm
+      for us. Thankfull we were spared having to deal with anyone in our immediate families being
+      infected with the Coronavirus (though we did have one uncle who was so paranoid by it that
+      he got test 4 times to make sure he wasn't going to spread it.)`
+    },
+    {
+      type: 'text',
+      data: `But this year for us was defined by so much more than the Coronavirus that any more
+      time spent on it would give it more meaning in our lives than it deserves thus far (especially
+      given the hope that we will all be vaccinated against it within the next year). Really, this year
+      would have been remarkable for us without a Pandemic, a tumultuous presidential election, and social
+      unrest that defined this year for so many.`
+    },
+    {
+      type: 'text',
+      data: `Perhaps the greatest blessing in our lives was the arrival of Hadley, our sweet fourth daughter.
+      She has been a beam of sunshine for our family, bringing lots of wonderful smiles, happy giggles, and
+      warm hugs. Her sisters have loved having another friend to play with and are really quite obsessed with her.
+      Her life has already been full of adventure - visiting the Oregon coast and Washington to see her Grandma and
+      Grandpa Phillips, hiking to waterfalls in the wasatch front, and exploring orchards before she could even
+      walk. She may not have been able to really meet many new people, but she sure has had a full life already.`
+    },
+    {
+      type: 'text',
+      data: `Along with Hadley we have also been blessed with finally moving into a family home, one with a good
+      sized backyard and lots of space for the kids and their cousins to play. We had many generous friends come and
+      help us move. Unfortunately, just a few weeks after moving in lockdowns began and we haven't been able to have
+      many people over to see the new place. We look forward to being able to share our home with others when restrictions
+      are lifted in the future. Until then, we are just grateful that we didn't have to spend this last year in a tiny
+      apartment with 4 children. Our new house has been a blessing that we cherish every day.`
+    },
+    {
+      type: 'text',
+      data: `Our family continues to grow together and to learn how to handle new and difficult stresses that so many
+      have had to face this year. It would be a lie to say that we have enjoyed every momeng being quarantined together all this year,
+      but it is safe to say that we have come this far having learned a great deal about what is important to us. Family
+      time has taken on a new meaning for us this year, and it is great to see that Marley, Whitely, Hadley, and Brinley are
+      forming such great relationships. We can only hope that we continue to foster their love for each other and
+      they continue to be best friends for years to come.`
+    },
+  ],
   '2019': [
     {
       type: 'text',

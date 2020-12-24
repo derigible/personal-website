@@ -4,8 +4,8 @@
   "description": "Derigible Personal Website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode=development",
-    "start:production": "cross-env npm run build && npm run start:server",
+    "start": "SERVER_URL=http://localhost:8080/ webpack-dev-server --mode=development",
+    "start:production": "cross-env npm run build && mkdir ./dist/family && cp -r ./src/family/data ./dist/family/data && npm run start:server",
     "start:server": "http-server dist -p 8001",
     "build": "npm run clean && webpack --mode=production",
     "clean": "rm -rf dist",

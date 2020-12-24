@@ -22,7 +22,7 @@ export default class Welcome extends Component {
   }
 
   static defaultProps = {
-    year: '2019'
+    year: '2020'
   }
 
   handleYearChange (_, value) {
@@ -37,30 +37,62 @@ export default class Welcome extends Component {
     router.navigate('/family/quiz')
   }
 
+  renderMember (member, year, margin="medium large") {
+    const navigate = () => { router.navigate(`/family/member/${member.id}/year/${year}`) }
+    return (
+      <Flex.Item key={`${member.id}_avatar`} margin={margin}>
+        <Link onClick={navigate}>
+          <Avatar
+            name={member.name}
+            src={member.img}
+            hoverSrc={member.hoverImg}
+            size={(members[year].length < 5 || window.matchMedia("(max-width: 600px)").matches) ? "large" : "small"}
+          />
+        </Link>
+        <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
+          <Text size="large">{member.name}</Text>
+        </div>
+      </Flex.Item>
+    )
+  }
+
   renderMembers () {
+    const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches
     const { year } = this.props
-    return members[year].map((member) => {
-      const navigate = () => { router.navigate(`/family/member/${member.id}/year/${year}`) }
-      return (
-        <Flex.Item key={`${member.id}_avatar`} margin="medium large">
-          <Link onClick={navigate}>
-            <Avatar
-              name={member.name}
-              src={member.img}
-              hoverSrc={member.hoverImg}
-              size={(members[year].length < 5 || window.matchMedia("(max-width: 600px)").matches) ? "large" : "small"}
-            />
-          </Link>
-          <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
-            <Text size="large">{member.name}</Text>
-          </div>
-        </Flex.Item>
+    if(members[year].length > 5) {
+      const toRender = [(
+        <div key="firstRow">
+          <Flex justifyItems="center" margin={isMobile ? "" : "xx-small xx-large"} wrapItems  direction="row">
+            {members[year].slice(0,2).map((member) => {
+              return (this.renderMember(member, year, "small large"))
+            })}
+          </Flex>
+        </div>
+      )]
+      toRender.push(
+        <div key="secondRow">
+          <Flex justifyItems="center" margin={isMobile ? "" : "xx-small xx-large"} wrapItems direction="row">
+            {
+              members[year].slice(2, members[year].length).map((member) => {
+                return (this.renderMember(member, year, "small large"))
+              })
+            }
+          </Flex>
+        </div>
       )
-    })
+
+      return <Flex direction="column">
+        {toRender}
+      </Flex>
+    }
+    return <Flex justifyItems="center" margin={isMobile ? "" : "small xx-large"} wrapItems>
+      {members[year].map((member) => {
+        return (this.renderMember(member, year))
+      })}
+    </Flex>
   }
 
   render () {
-    const isMobile = window.matchMedia("only screen and (max-width: 760px)").matches
     return (
       <div>
         <div style={{margin: 'auto', textAlign: 'center', color: '#8e8ef7', maxWidth: '25rem'}}>
@@ -73,9 +105,7 @@ export default class Welcome extends Component {
             </Link>
           </Alert>
         </div>
-        <Flex justifyItems="center" margin={isMobile ? "" : "small xx-large"} wrapItems>
-          {this.renderMembers()}
-        </Flex>
+        {this.renderMembers()}
         <div style={{margin: 'auto', textAlign: 'center', marginBottom: '1rem'}}>
          Click the portraits of a person to read more!
         </div>
@@ -86,6 +116,7 @@ export default class Welcome extends Component {
             onChange={this.handleYearChange}
             margin="medium none none small"
           >
+            <option value="2020">2020</option>
             <option value="2019">2019</option>
             <option value="2018">2018</option>
             <option value="2017">2017</option>
