@@ -4,7 +4,7 @@ export default {
     {
       id: 'Marc',
       name: 'Marc Alan',
-      img: '/family/data/marc2019.jpg',
+      img: '/family/data/marc2020.jpg',
       hoverImg: '/family/data/marcStarWars.jpg',
       color: '#5fabff',
       bio: [
@@ -35,7 +35,7 @@ export default {
     {
       id: 'Andrea',
       name: 'Andrea Carter',
-      img: '/family/data/andrea2019.jpg',
+      img: '/family/data/andrea2020.jpg',
       hoverImg: '/family/data/andreaStarWars.jpg',
       color: '#5fffc6',
       bio: [
@@ -207,7 +207,24 @@ export default {
       bio: [
         {
           type: 'section',
-          data: `We've only known Hadley for a few months but i`
+          data: `We've only known Hadley for a few months but it is safe to say that she is the chillest and
+          sweetest baby ever, and that is only slightly exaggerating. She is so calm and understanding
+          with her sisters that they can't get enough of her. The giggles she gives are infectious and flow
+          easily (she is also quite ticklish). Her wonderful light has been such a blessing to us this year.`
+        },
+        {
+          type: 'section',
+          data: `One of the best things about having Hadley in our lives is seeing how it has impacted her
+          sisters. Since Hadley is so chill it has been fun to see her sisters pretty much treat her like
+          one of the gang. Each day when they wake up they come in to our room just to see Hadley. Of course
+          Hadley is always happy to see them and is never short of smiles to give. Even at midnight when she
+          has woken up with a dirty diaper she will give huge gummy smiles (and this from an early age).`
+        },
+        {
+          type: 'section',
+          data: `During her short life she has made a trip to see Grandma and Grandpa Phillips in Washington, been out
+          to the Oregon cost, toured the Tillamook cheese factory, been hiking, been shopping, and lived a pretty
+          good full life. We are excited to see how she continues to grow into the future.`
         },
       ]
     }
